@@ -1,3 +1,10 @@
+'''
+3-2 django之接口工作原理.mp4
+from django.http.response import HttpResponse
+# Create your views here.
+def Login(request):
+    return HttpResponse('this is first test')
+'''
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 

@@ -19,5 +19,5 @@ from web.views import Login
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^login',Login)
+    url(r'^login', Login)
 ]
