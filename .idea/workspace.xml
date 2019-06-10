@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ab3cd6-f0f3-41e3-8a1f-db35d7a3cee3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="25ab3cd6-f0f3-41e3-8a1f-db35d7a3cee3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +109,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,13 +160,20 @@
       <option name="project" value="LOCAL" />
       <updated>1559139971220</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="hpc &#10;review [3-3 django之post接口开发]的大概原理和更新对应word">
+      <created>1559610237821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559610237821</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35032538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17017913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -189,7 +194,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hpc update some doc files about video6" />
-    <option name="LAST_COMMIT_MESSAGE" value="hpc update some doc files about video6" />
+    <MESSAGE value="hpc &#10;review [3-3 django之post接口开发]的大概原理和更新对应word" />
+    <option name="LAST_COMMIT_MESSAGE" value="hpc &#10;review [3-3 django之post接口开发]的大概原理和更新对应word" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/Django_imooc/web/views.py">
