@@ -42,9 +42,9 @@ class TestMethod(unittest.TestCase):
         }
         res=self.run.run_main(url, 'POST', data)
         print (res)
-        print(type(res))
-        res = json.loads(res) #将字符串转成json格式
-        print(type(res))
+        print('直接返回的res类型：',type(res))
+        res = json.loads(res) #loads反序列化，把json字符串变为字典
+        print('处理后的的res类型：',type(res))
         self.assertEqual(res['errorCode'],1007,"msg ceode err")
 if __name__ == '__main__':
     filepath= "../report/htmlreport.html"
