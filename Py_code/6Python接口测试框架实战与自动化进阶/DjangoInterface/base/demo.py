@@ -2,9 +2,9 @@
 import requests
 import json
 class RunMain:
-    # # 构造方法，实例化类，自动调用方法：
-    # def __init__(self, url, method, data=None):
-    #     self.res = self.run_main(url, method, data)
+    # 构造方法，实例化类，自动调用方法：
+    def __init__(self, url, method, data=None):
+        self.res = self.run_main(url, method, data)
 
     def send_get(self, url, data):
         res = requests.get(url=url, data=data).json()
