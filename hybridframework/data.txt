@@ -1,0 +1,2 @@
+{"search_word":"ÇÇµ¤","expected_word":"NBA"}
+{"search_word":"Êý×Ö","expected_word":"1"}

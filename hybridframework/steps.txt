@@ -1,0 +1,9 @@
+visit||chrome
+get||www.baidu.com
+input||xpath--ÊäÈë¿ò||{{search_word}}
+click||xpath--È·¶¨¼ü
+sleep||3
+assert_word||{{expected_word}}
+
+
+
