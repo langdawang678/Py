@@ -1,6 +1,8 @@
 # encoding: utf-8
 import requests
 import json
+
+
 class RunMain:
     # # 构造方法，实例化类，自动调用方法：
     # def __init__(self, url, method, data=None):
@@ -22,11 +24,12 @@ class RunMain:
             res = self.send_post(url, data)
         return res
 
+
 if __name__ == '__main__':
     url = 'http://www.imooc.com/m/web/shizhanapi/loadmorepingjia.html?cart=11'
     data = {
         'cart': '11'
     }
     run = RunMain(url, 'GET', data)
-    print (run.res)
-    #print run.run_main(url, 'GET', data)
+    print(run.res)
+    # print run.run_main(url, 'GET', data)
