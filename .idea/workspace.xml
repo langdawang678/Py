@@ -1,159 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ab3cd6-f0f3-41e3-8a1f-db35d7a3cee3" name="Default Changelist" comment="">
+    <list default="true" id="25ab3cd6-f0f3-41e3-8a1f-db35d7a3cee3" name="Default Changelist" comment="整合所有py的code和doc&#10;（测试脚本待整理-》放入works）">
+      <change beforePath="$PROJECT_DIR$/.idea/Py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Py.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/6Python接口测试框架实战与自动化进阶.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/6Python接口测试框架实战与自动化进阶.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/data/get_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/main/run_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-              <folding>
-                <element signature="e#18#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo4_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="64" selection-start-line="13" selection-end-line="13" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo.py (4-5 使用类封装接口测试脚本).txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/data/data_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo4_2.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
-  </component>
+  <component name="ProjectId" id="1afhsPjY04TdWeTEZm1mSppmLhy" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-              <item name="Py_code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-              <item name="Py_code" type="462c0819:PsiDirectoryNode" />
-              <item name="6Python接口测试框架实战与自动化进阶" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-              <item name="Py_code" type="462c0819:PsiDirectoryNode" />
-              <item name="6Python接口测试框架实战与自动化进阶" type="462c0819:PsiDirectoryNode" />
-              <item name="Django_imooc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-              <item name="Py_code" type="462c0819:PsiDirectoryNode" />
-              <item name="6Python接口测试框架实战与自动化进阶" type="462c0819:PsiDirectoryNode" />
-              <item name="DjangoInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-              <item name="Py_code" type="462c0819:PsiDirectoryNode" />
-              <item name="6Python接口测试框架实战与自动化进阶" type="462c0819:PsiDirectoryNode" />
-              <item name="DjangoInterface" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Py" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Py" type="462c0819:PsiDirectoryNode" />
-              <item name="Py_code" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -161,18 +35,6 @@
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="Py" />
       </console-settings>
-    </option>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
     </option>
   </component>
   <component name="RunManager">
@@ -263,98 +125,43 @@
       <option name="project" value="LOCAL" />
       <updated>1560434189920</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="整合所有py的code和doc&#10;（测试脚本待整理-》放入works）">
+      <created>1587133970118</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587133970119</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17017913" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="hpc update some doc files about video6" />
     <MESSAGE value="hpc &#10;review [3-3 django之post接口开发]的大概原理和更新对应word" />
     <MESSAGE value="hpc &#10;review 4-2 demo" />
     <MESSAGE value="hpc &#10;review 4-4demo" />
     <MESSAGE value="hpc &#10;review 5-2demo ,but" />
     <MESSAGE value="hpc &#10;review 5-2,&#10;test_method.py访问demo模块中的RunMain类中的get和post方法&#10;demo.py中接口的访问（去掉init）" />
-    <option name="LAST_COMMIT_MESSAGE" value="hpc &#10;review 5-2,&#10;test_method.py访问demo模块中的RunMain类中的get和post方法&#10;demo.py中接口的访问（去掉init）" />
+    <MESSAGE value="整合所有py的code和doc&#10;（测试脚本待整理-》放入works）" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合所有py的code和doc&#10;（测试脚本待整理-》放入works）" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/Django_imooc/web/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/data/get_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/main/run_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo4_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="64" selection-start-line="13" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo.py (4-5 使用类封装接口测试脚本).txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/data/data_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Py_code/6Python接口测试框架实战与自动化进阶/DjangoInterface/base/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="e#18#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="570" y="68" key="CommitChangelistDialog2" timestamp="1587133969303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="570" y="68" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587133969303" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1587132775068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587132775068" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587133973956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587133973956" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1587215650084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587215650084" />
   </component>
 </project>
