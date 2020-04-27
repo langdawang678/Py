@@ -15,4 +15,4 @@ print (driver.find_element_by_id("TANGRAM__PSP_3__submit").size)
 size=driver.find_element_by_id("TANGRAM__PSP_3__submit").size
 print (size)
 其他：text、get_attribute(name/id/type)、is_displayed()
-
+'''
