@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ab3cd6-f0f3-41e3-8a1f-db35d7a3cee3" name="Default Changelist" comment="修改py工程目录结构">
+    <list default="true" id="25ab3cd6-f0f3-41e3-8a1f-db35d7a3cee3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/.idea/unittest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/DjangoInterface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/DjangoInterface/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/Django_imooc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works_6Python接口测试框架实战与自动化进阶/Django_imooc/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/bubbles_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/bubbles_sort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +33,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -66,7 +51,49 @@
       <recent name="C:\Users\Administrator\PycharmProjects\Py\works" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.bubbles_sort">
+    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/binary_search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bubbles_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/bubbles_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="demo4_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Py" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,8 +115,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="insert_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Py" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/insert_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bubbles_sort" />
+        <item itemvalue="Python.insert_sort" />
+        <item itemvalue="Python.binary_search" />
         <item itemvalue="Python.demo4_2" />
       </list>
     </recent_temporary>
@@ -203,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590203465052</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="--">
+      <created>1590203638079</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590203638079</updated>
+    </task>
+    <task id="LOCAL-00016" summary="0523">
+      <created>1590214596593</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590214596593</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,17 +285,19 @@
     <MESSAGE value="修改注释的报错" />
     <MESSAGE value="把记录在其他地方的学习视频中的报错信息，同步到项目的word中" />
     <MESSAGE value="修改py工程目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改py工程目录结构" />
+    <MESSAGE value="--" />
+    <MESSAGE value="0523" />
+    <option name="LAST_COMMIT_MESSAGE" value="0523" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587910235392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587910235392" />
-    <state x="570" y="68" key="CommitChangelistDialog2" timestamp="1590203532157">
+    <state x="570" y="68" key="CommitChangelistDialog2" timestamp="1590214595990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="570" y="68" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590203532157" />
+    <state x="570" y="68" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590214595990" />
     <state x="303" y="44" key="DiffContextDialog" timestamp="1590203168340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,6 +306,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587911038388" />
+    <state width="949" height="276" key="GridCell.Tab.0.bottom" timestamp="1590214819538">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590214819538" />
+    <state width="949" height="276" key="GridCell.Tab.0.center" timestamp="1590214819537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590214819537" />
+    <state width="949" height="276" key="GridCell.Tab.0.left" timestamp="1590214819537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590214819537" />
+    <state width="949" height="276" key="GridCell.Tab.0.right" timestamp="1590214819537">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="949" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590214819537" />
     <state x="711" y="188" key="RollbackChangesDialog" timestamp="1590203478650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -247,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587132775068" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590203470915">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590214598181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590203470915" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590214598181" />
     <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1590202564395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -13,7 +13,5 @@ for i in range(len(a)-1):
     for j in range(len(a)-1-i):
         # 若左侧大于右侧，执行交换（即冒泡）
         if a[j] > a[j+1]:
-            tmp = a[j+1]
-            a[j+1] = a[j]
-            a[j] = tmp
+            a[j], a[j+1] = a[j+1], a[j]  # 快速交换的技巧
 print(a)
