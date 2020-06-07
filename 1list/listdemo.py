@@ -1,24 +1,18 @@
-# 列举部分应用，其他基本功能主要看函数和wps摘录
+import random
+"""
+列表推导式
+# list=[Express for var in range]   指定范围
+# list=[Express for var in list]    根据表达式，生成新的列表  
+# list=[Express for var in list if condition]   根据表达式和条件，生成新的列表  
+Express:表达式，用于计算新列表的元素
+var：循环变量
+"""
 
-list1 = ['Spring', 'Summer', 11, 22]
-# 1、遍历列表，换行输出列表中的每个值
-for item in list1:
-    print(item)
+random_list = [random.randint(10, 100) for i in range(5)]
+i = [i for i in range(5)] # [0, 1, 2, 3, 4]
+print(random_list)  # [28, 71, 100, 83, 59]
 
-# 2、遍历列表的下标和值(用枚举函数enumerate(sequence, [start=0]))
-for index, item in enumerate(list1):
-    print(index, item)
 
-# 3、直接输出列表：
-print(list1)  # ['Spring', 'Summer', 11, 22]
-
-# 4、关于枚举函数enumerate(sequence, [start=0])
-'''
-将一个可遍历的数据对象(如列表、元组或字符串)组合为一个索引序列，同时列出数据和数据下标，一般用在 for 循环当中。
-返回 enumerate(枚举) 对象。
-'''
-seasons = ['Spring', 'Summer', 'Fall', 'Winter']
-enu = enumerate(seasons)
-print(enu)  # <enumerate object at 0x00523B68>
-print(type(enu))  # <class 'enumerate'>
-print(list(enu))  # [(0, 'Spring'), (1, 'Summer'), (2, 'Fall'), (3, 'Winter')]
+list1 = [1, 2, 3, 4]
+new_list = [x * 2 for x in list1]  # [2, 4, 6, 8]
+new_list2 = [x * 2 for x in list1 if x > 3] # [8]
