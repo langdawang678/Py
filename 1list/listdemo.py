@@ -9,7 +9,7 @@ var：循环变量
 """
 
 random_list = [random.randint(10, 100) for i in range(5)]
-i = [i for i in range(5)] # [0, 1, 2, 3, 4]
+list0 = [i for i in range(5)]  # [0, 1, 2, 3, 4]
 print(random_list)  # [28, 71, 100, 83, 59]
 
 
