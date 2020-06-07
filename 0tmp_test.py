@@ -1,8 +1,9 @@
 # #  用于临时的，或者小片段的调试
 # from functools import reduce
 
-
-
+dict = {'runoob': 'runoob.com', 'google': 'google.com'};
+print(repr(dict))
+print(str(dict))
 #
 # def test(x,y):
 #     return x * y

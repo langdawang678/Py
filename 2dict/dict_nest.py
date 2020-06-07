@@ -12,19 +12,20 @@ for a in aliens:
 # 字典中存列表
 print('\n字典中存列表:')
 favorite_languages = {
- 'tom': ['python', 'java'],
- 'merry': ['c'],
- 'jack': ['java', 'js'],
+    'tom': ['python', 'java'],
+    'merry': ['c'],
+    'jack': ['java', 'js'],
 }
 for name, languages in favorite_languages.items():
     print(name, languages)
-    #print("\n" + name.title() + "'s favorite languages are:")
-    #for language in languages:
-        #print("\t" + language.title())
+    # print("\n" + name.title() + "'s favorite languages are:")
+    # for language in languages:
+    # print("\t" + language.title())
+
 
 # 字典中存字典
 print('\n字典中存字典:')
-test_dict={
+test_dict = {
     'key1': "{'color': 'red', 'points': 5}",
     'key2': "{'color': 'red', 'points': 15}"
 }
