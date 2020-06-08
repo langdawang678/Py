@@ -1,10 +1,6 @@
 '''
 https://blog.csdn.net/weixin_43250623/article/details/88931925
-基准元素，一般来说选取有几种方法:
-取第一个元素
-取最后一个元素
-取第中位置元素间
-取第一个、最后一个、中间位置3者的中位数元素
+基准元素，一般来说选取有几种方法:取第一个元素
 
 选择一个基准数，通过一趟排序后，
 将原序列分为两部分，使得前面的比后面的小，
@@ -15,30 +11,30 @@ def quick_sort(alist, start, end):
     """快速排序"""
     if start >= end:  # 递归的退出条件
         return
-    mid = alist[start]  # 设定起始的基准元素
-    low = start  # low为序列左边在开始位置的由左向右移动的游标
-    high = end  # high为序列右边末尾位置的由右向左移动的游标
-    while low < high:
-        while low < high and alist[high] >= mid:
-            # 如果low与high未重合，high(右边)指向的元素大于等于基准元素，则high向左移动
-            high -= 1
-        alist[low] = alist[high]
-        # 走到此位置时high指向一个比基准元素小的元素,将high指向的元素放到low的位置上,
-        # 此时high指向的位置空着,接下来移动low找到符合条件的元素放在此处
+    mid = alist[start]  # ！设定起始的基准元素
+    i = start  # i为序列左边在开始位置的由左向右移动的游标
+    j = end  # j为序列右边末尾位置的由右向左移动的游标
+    while i < j:
+        while i < j and alist[j] >= mid:
+            # 如果i与j未重合，j(右边)指向的元素大于等于基准元素，则j向左移动
+            j -= 1
+        alist[i] = alist[j]
+        # 走到此位置时j指向一个比基准元素小的元素,将j指向的元素放到i的位置上,
+        # 此时j指向的位置空着,接下来移动i找到符合条件的元素放在此处
 
-        while low < high and alist[low] < mid:
-            # 如果low与high未重合，low指向的元素比基准元素小，则low向右移动
-            low += 1
-        alist[high] = alist[low]
-        # 此时low指向一个比基准元素大的元素,将low指向的元素放到high空着的位置上,
-        # 此时low指向的位置空着,之后进行下一次循环,将high找到符合条件的元素填到此处
+        while i < j and alist[i] < mid:
+            # 如果i与j未重合，i指向的元素比基准元素小，则i向右移动
+            i += 1
+        alist[j] = alist[i]
+        # 此时i指向一个比基准元素大的元素,将i指向的元素放到j空着的位置上,
+        # 此时i指向的位置空着,之后进行下一次循环,将j找到符合条件的元素填到此处
 
-    # 退出循环后，low与high重合，此时所指位置为基准元素的正确位置,左边的元素都比基准元素小,右边的元素都比基准元素大
-    alist[low] = mid  # 将基准元素放到该位置,
+    # 退出循环后，i与j重合，此时所指位置为基准元素的正确位置,左边的元素都比基准元素小,右边的元素都比基准元素大
+    alist[i] = mid  # ！将基准元素放到位置i=j,因为i已经赋值给其他
     # 对基准元素左边的子序列进行快速排序
-    quick_sort(alist, start, low - 1)  # start :0  low -1 原基准元素靠左边一位
+    quick_sort(alist, start, i - 1)  # start :0  i -1 原基准元素靠左边一位
     # 对基准元素右边的子序列进行快速排序
-    quick_sort(alist, low + 1, end)  # low+1 : 原基准元素靠右一位  end: 最后
+    quick_sort(alist, i + 1, end)  # i+1 : 原基准元素靠右一位  end: 最后
 
 
 
