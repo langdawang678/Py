@@ -1,4 +1,4 @@
-'''
+"""
 https://blog.csdn.net/weixin_43250623/article/details/88931925
 基准元素，一般来说选取有几种方法:取第一个元素
 
@@ -6,7 +6,7 @@ https://blog.csdn.net/weixin_43250623/article/details/88931925
 将原序列分为两部分，使得前面的比后面的小，
 然后再依次对前后进行拆分进行快速排序，递归该过程，直到序列中所有记录均有序。
 
-'''
+"""
 def quick_sort(alist, start, end):
     """快速排序"""
     if start >= end:  # 递归的退出条件
@@ -22,7 +22,7 @@ def quick_sort(alist, start, end):
         # 走到此位置时j指向一个比基准元素小的元素,将j指向的元素放到i的位置上,
         # 此时j指向的位置空着,接下来移动i找到符合条件的元素放在此处
 
-        while i < j and alist[i] < mid:
+        while i < j and alist[i] <= mid:
             # 如果i与j未重合，i指向的元素比基准元素小，则i向右移动
             i += 1
         alist[j] = alist[i]
@@ -30,7 +30,7 @@ def quick_sort(alist, start, end):
         # 此时i指向的位置空着,之后进行下一次循环,将j找到符合条件的元素填到此处
 
     # 退出循环后，i与j重合，此时所指位置为基准元素的正确位置,左边的元素都比基准元素小,右边的元素都比基准元素大
-    alist[i] = mid  # ！将基准元素放到位置i=j,因为i已经赋值给其他
+    alist[i] = mid  # ！将基准元素放到位置i=j,因为i已经赋值给其他;是mid不是alist[start]
     # 对基准元素左边的子序列进行快速排序
     quick_sort(alist, start, i - 1)  # start :0  i -1 原基准元素靠左边一位
     # 对基准元素右边的子序列进行快速排序
