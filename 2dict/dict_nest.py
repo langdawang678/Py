@@ -25,7 +25,8 @@ for name, languages in favorite_languages.items():
 
 # 字典中存字典
 print('\n字典中存字典:')
-test_dict = {
-    'key1': "{'color': 'red', 'points': 5}",
-    'key2': "{'color': 'red', 'points': 15}"
+testdict = {
+    'key1':{'color': '哈哈哈哈', 'points': 5},
+    'key2': {'color': 'red', 'points': 15}
 }
+print('读取嵌套字典中的某个key的值=',testdict.get("key1").get("color"))
