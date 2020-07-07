@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 import unittest, time, re
 
 class Baidu(unittest.TestCase):
-#Baidu 类继承 unittest.TestCase 类，从 TestCase 类继承是告诉 unittest 模块的方式，这是一个测试案例。
+#Baidu 类继承 unittestdemo.TestCase 类，从 TestCase 类继承是告诉 unittestdemo 模块的方式，这是一个测试案例。
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(30)

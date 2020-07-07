@@ -16,13 +16,13 @@ def binary_search(listarr, target):
     while True:
         mid = (left + right) // 2  # 中分（二分），取整
         if left > right:  # 左边的索引大于右边的索引时，代表未找到target
-            print(target, "未找到")
+            print(f"target is {target},未找到")
             return
         else:
             if listarr[mid] > target:
                 right = mid - 1
             elif listarr[mid] == target:
-                print("find target's index is", mid, ",cost %d times" % times)
+                print(f"find target's index is {mid} ,cost {times} times")
                 return
             else:
                 left = mid + 1

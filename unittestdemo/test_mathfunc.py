@@ -3,9 +3,9 @@ import unittest
 from mathfunc import *
 
 class TestMathFunc(unittest.TestCase):
-    '''#Ò»¸öclass¼Ì³ĞÁËunittest.TestCase£¬±ãÊÇÒ»¸ö²âÊÔÓÃÀı
-    #ÆäÖĞÓĞ¶à¸öÒÔ test ¿ªÍ·µÄ·½·¨£¬Ã¿¸öÔÚloadµÄÊ±ºò±ã»áÉú³ÉÒ»¸öTestCaseÊµÀı
-    #¿ÉÒÔ½« TestCase ¿´³ÉÊÇ¶ÔÌØ¶¨Àà½øĞĞ²âÊÔµÄ·½·¨µÄ¼¯ºÏ'''
+    '''#Ò»ï¿½ï¿½classï¿½Ì³ï¿½ï¿½ï¿½unittestdemo.TestCaseï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    #ï¿½ï¿½ï¿½ï¿½ï¿½Ğ¶ï¿½ï¿½ï¿½ï¿½ test ï¿½ï¿½Í·ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½loadï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½TestCaseÊµï¿½ï¿½
+    #ï¿½ï¿½ï¿½Ô½ï¿½ TestCase ï¿½ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½ï¿½ï¿½Ğ²ï¿½ï¿½ÔµÄ·ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½'''
     @classmethod
     def setUpClass(cls):
         print ("This setUpClass() method only called once.")
@@ -19,7 +19,7 @@ class TestMathFunc(unittest.TestCase):
         
     def tearDown(self):
         print ("do something after test.Clean up.")
-        '''setUp()ºÍ tearDown()¶¼ÊÇ TestCase ÀàÖĞ¶¨ÒåµÄ·½·¨'''
+        '''setUp()ï¿½ï¿½ tearDown()ï¿½ï¿½ï¿½ï¿½ TestCase ï¿½ï¿½ï¿½Ğ¶ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½'''
         
     def test_add(self):
         """Test method add(a, b)"""
@@ -44,5 +44,5 @@ class TestMathFunc(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(verbosity=0)
-'''unittest.main£¨)£¬ÎŞ²ÎÊıÄ¬ÈÏÊ±verbosity=1,
-µÈÓÚ0Ôò²»ÏÔÊ¾Ã¿¸öÓÃÀıµÄÖ´ĞĞ½á¹û'''
+'''unittestdemo.mainï¿½ï¿½)ï¿½ï¿½ï¿½Ş²ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½Ê±verbosity=1,
+ï¿½ï¿½ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½Ê¾Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ğ½ï¿½ï¿½'''

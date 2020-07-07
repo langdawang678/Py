@@ -20,14 +20,14 @@ suite.addTest(TestMathFunc("test_multi"))
 
 # 用addTests + TestLoader
 # loadTestsFromName()，传入'模块名.TestCase名'
-suite.addTests(unittest.TestLoader().loadTestsFromName('test_mathfunc.TestMathFunc'))
+suite.addTests(unittestdemo.TestLoader().loadTestsFromName('test_mathfunc.TestMathFunc'))
 
 # loadTestsFromNames()，类似，传入列表
-suite.addTests(unittest.TestLoader().loadTestsFromNames(['test_mathfunc.TestMathFunc']))
+suite.addTests(unittestdemo.TestLoader().loadTestsFromNames(['test_mathfunc.TestMathFunc']))
 
 
 # loadTestsFromTestCase()，传入TestCase
-suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestMathFunc))
+suite.addTests(unittestdemo.TestLoader().loadTestsFromTestCase(TestMathFunc))
 
 注意，用TestLoader的方法是无法对case进行排序的，同时，suite中也可以套suite。
 '''
