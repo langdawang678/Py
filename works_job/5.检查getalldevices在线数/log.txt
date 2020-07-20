@@ -1,0 +1,6671 @@
+{
+	"date":[
+		"Thu,
+		 28 Nov 2019 09:06:50 GMT"
+	],
+	"server":[
+		"Tengine/Aserver"
+	],
+	"s_tid":[
+		"0b0f945315749320093964846e35a8"
+	],
+	"x-node":[
+		"1bdc9978410e7d60a739f43704b6967a31cd29d375d5344bc7cb81408fd8a3af"
+	],
+	"vary":[
+		"Accept-Encoding"
+	],
+	"s_ip":[
+		"4547514b63656e77464d454c4b504d3d"
+	],
+	"x-bin-length":[
+		"79204"
+	],
+	"s_tag":[
+		"1605632|0^0|^taoMainUser:3922222942:23904773^taoMainUser#70368744210432|0"
+	],
+	"x-powered-by":[
+		"m.taobao.com"
+	],
+	"s_status":[
+		"STATUS_NORMAL"
+	],
+	"content-type":[
+		"application/json;charset=UTF-8"
+	],
+	"x-aserver-sret":[
+		"SUCCESS"
+	],
+	"s_group":[
+		"tao-session"
+	],
+	":status":[
+		"200"
+	],
+	"cache-control":[
+		"no-cache"
+	],
+	"s_host":[
+		"544e624b4f50337470684b4c697778422f456246756466563038745945394b476753513d"
+	],
+	"s_read_unit":[
+		"[
+			CN:CENTER
+		]"
+	],
+	"x-retcode":[
+		"SUCCESS"
+	],
+	"x-eagleeye-id":[
+		"0b0f945315749320093964846e35a8"
+	],
+	"ufe-result":[
+		"A6"
+	],
+	"s-rt":[
+		"747"
+	],
+	"s_v":[
+		"4.0.1.5"
+	],
+	"pragma":[
+		"no-cache"
+	],
+	"eagleeye-traceid":[
+		"0b0f945315749320093964846e35a8"
+	],
+	"x-protocol":[
+		"http2_0rtt_acs"
+	],
+	"tbtrack-id":[
+		"du=3922222942"
+	],
+	"s_ucode":[
+		"CN:CENTER"
+	]
+}
+{
+	
+	"ret":[
+		
+		"SUCCESS::调用成功"
+	
+	],
+	
+	"data":{
+		
+		"success":"true",
+		
+		"model":{
+			
+			"devices":[
+				
+				{
+					
+					"devId":"F8:A7:63:4A:58:CE",
+					
+					"devType":"秤",
+					
+					"gmtModified":"2019-11-20T09:07:55.000Z",
+					
+					"typeGroup":"秤",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/scale_800.png",
+					
+					"productKey":"7432",
+					
+					"devName":"秤",
+					
+					"gmtCreate":"2019-11-20T09:07:55.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"NONE"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=F8:A7:63:4A:58:CE&skillId=3404&productKey=7432"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"0nSuzVLqsmz4AF6WdxJz000100",
+					
+					"devType":"单车",
+					
+					"gmtModified":"2019-11-28T05:53:26.000Z",
+					
+					"typeGroup":"动感单车",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/spinningBike800.png",
+					
+					"productKey":"a155stUjvnR",
+					
+					"devName":"单车",
+					
+					"gmtCreate":"2019-10-20T08:22:08.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=0nSuzVLqsmz4AF6WdxJz000100&skillId=3404&productKey=a155stUjvnR"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"00WQwYK3JLvdRRj3q7lq000100",
+					
+					"devType":"取暖桌",
+					
+					"gmtModified":"2019-11-28T05:47:23.000Z",
+					
+					"typeGroup":"取暖桌",
+					
+					"productKey":"a1ROzuvv6a4",
+					
+					"devName":"取暖桌",
+					
+					"gmtCreate":"2019-10-20T08:12:06.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=00WQwYK3JLvdRRj3q7lq000100&skillId=3404&productKey=a1ROzuvv6a4"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"1DngAE60JzzRx2YlLKwT000100",
+					
+					"devType":"划船机",
+					
+					"gmtModified":"2019-11-28T06:54:10.000Z",
+					
+					"typeGroup":"划船机",
+					
+					"productKey":"a1x1rjSm8G7",
+					
+					"devName":"划船机",
+					
+					"gmtCreate":"2019-10-16T11:48:07.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=1DngAE60JzzRx2YlLKwT000100&skillId=3404&productKey=a1x1rjSm8G7"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"1dToE7qjXCP3r6hO6ck5000100",
+					
+					"devType":"面包机",
+					
+					"gmtModified":"2019-11-28T05:40:54.000Z",
+					
+					"typeGroup":"面包机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/breadMachine_800.png",
+					
+					"productKey":"a1Ny5LWw1QY",
+					
+					"devName":"面包机",
+					
+					"gmtCreate":"2019-10-16T11:43:52.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=1dToE7qjXCP3r6hO6ck5000100&skillId=3404&productKey=a1Ny5LWw1QY"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"3Ky8YlDUqafeoLTdtJ7A000100",
+					
+					"devType":"洗碗机",
+					
+					"gmtModified":"2019-11-28T06:06:32.000Z",
+					
+					"typeGroup":"洗碗机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/dishwasher_800.png",
+					
+					"productKey":"a1HO8S5darL",
+					
+					"devName":"洗碗机",
+					
+					"gmtCreate":"2019-10-16T11:24:43.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=3Ky8YlDUqafeoLTdtJ7A000100&skillId=3404&productKey=a1HO8S5darL"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"0Ko9hOQj5e2FItbuy9AR000100",
+					
+					"devType":"消毒锅",
+					
+					"gmtModified":"2019-11-28T06:37:47.000Z",
+					
+					"typeGroup":"消毒锅",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/消毒锅.png",
+					
+					"productKey":"a1GxS6WenPD",
+					
+					"devName":"消毒锅",
+					
+					"gmtCreate":"2019-10-16T07:40:24.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=0Ko9hOQj5e2FItbuy9AR000100&skillId=3404&productKey=a1GxS6WenPD"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"780f7774790b1571198568",
+					
+					"devType":"空调",
+					
+					"gmtModified":"2019-10-16T04:02:53.000Z",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/AC.png",
+					
+					"devName":"挂式空调",
+					
+					"gmtCreate":"2019-10-16T04:02:48.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"挂式空调",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://709be536bb05e9a429819495fa34a959oauth.ibroadlink.com?deviceId=780f7774790b1571198568&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"3008806907718183936",
+					
+					"devType":"机顶盒",
+					
+					"gmtModified":"2019-11-28T03:30:04.000Z",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/STB.png",
+					
+					"devName":"机顶盒",
+					
+					"gmtCreate":"2019-10-14T08:41:57.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"卧室",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"机顶盒",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://5f42c968d377bd4af27c09800045db1aoauth.ibroadlink.com?deviceId=3008806907718183936&access_token=9d2e15df6b5dce0f0584a65362fd5f4b50439cd8448382d8472208a59fe921c760c4cecf18056718253e21f5c7ff6c9f&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"3008682908543942008",
+					
+					"devType":"万能遥控器",
+					
+					"gmtModified":"2019-11-28T03:30:04.000Z",
+					
+					"typeGroup":"万能遥控器",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/RM_pro.png",
+					
+					"devName":"智能遥控",
+					
+					"gmtCreate":"2019-10-14T08:41:57.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"卧室",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"智能遥控",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://5f42c968d377bd4af27c09800045db1aoauth.ibroadlink.com?deviceId=3008682908543942008&access_token=9d2e15df6b5dce0f0584a65362fd5f4b50439cd8448382d8472208a59fe921c760c4cecf18056718253e21f5c7ff6c9f&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80171e21a0000197e3563a7f8020000",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-10-12T07:24:35.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/light800.png",
+					
+					"productKey":"6882",
+					
+					"devName":"灯",
+					
+					"gmtCreate":"2019-10-12T07:08:24.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"主卧",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171e21a0000197e3563a7f8020000&skillId=3404&productKey=6882"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"f8a7630946da",
+					
+					"devType":"插座",
+					
+					"gmtModified":"2019-11-27T11:14:27.000Z",
+					
+					"typeGroup":"插座",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/outlet800.png",
+					
+					"productKey":"4845",
+					
+					"devName":"插座",
+					
+					"gmtCreate":"2019-09-26T11:44:06.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=f8a7630946da&skillId=3404&productKey=4845"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"f8a763a9f495",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-11-27T11:15:23.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/light800.png",
+					
+					"productKey":"4843",
+					
+					"devName":"灯",
+					
+					"gmtCreate":"2019-09-26T11:42:54.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=f8a763a9f495&skillId=3404&productKey=4843"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca355f01",
+					
+					"devType":"微波炉",
+					
+					"gmtModified":"2019-11-27T11:19:27.000Z",
+					
+					"typeGroup":"微波炉",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/microwaveoven_800.png",
+					
+					"productKey":"4055",
+					
+					"devName":"微波炉",
+					
+					"gmtCreate":"2019-09-26T11:41:39.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=38d2ca355f01&skillId=3404&productKey=4055"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"1zF35NCxv2h3PbQ17lEY000100",
+					
+					"devType":"饮水机",
+					
+					"gmtModified":"2019-11-28T05:27:40.000Z",
+					
+					"typeGroup":"饮水机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/waterdispenser_800.png",
+					
+					"productKey":"a1xl8ij8HO5",
+					
+					"devName":"饮水机",
+					
+					"gmtCreate":"2019-09-19T12:30:01.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/a1xl8ij8HO5/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=1zF35NCxv2h3PbQ17lEY000100&productKey=a1xl8ij8HO5"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"AF95A32711786C13CAE9294F5D9B862A",
+					
+					"gmtModified":"2019-09-19T12:23:38.000Z",
+					
+					"icon":"https://gw.alicdn.com/tfs/TB1_owjV4TpK1RjSZR0XXbEwXXa-600-600.png",
+					
+					"productKey":32,
+					
+					"devName":"自动化预发2方糖",
+					
+					"gmtCreate":"2019-09-19T12:23:38.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1HNzwRpXXXXXiaFXXXXXXXXXX-91-91.png",
+						
+						"type":1
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"办公室",
+					
+					"extra":{
+						
+						
+					
+					},
+					
+					"alias":"自动化预发2方糖",
+					
+					"action":{
+						
+						"actionType":"URI",
+						
+						"actionData":"assistant://multi_device_manage?uuid=AF95A32711786C13CAE9294F5D9B862A"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"a8017165190000cb932a63a7f8020000",
+					
+					"devType":"窗帘",
+					
+					"gmtModified":"2019-09-19T07:16:54.000Z",
+					
+					"typeGroup":"窗帘",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/curtain800.png",
+					
+					"productKey":"6501",
+					
+					"devName":"窗帘",
+					
+					"gmtCreate":"2019-09-19T07:16:54.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017165190000cb932a63a7f8020000&skillId=3404&productKey=6501"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca098b3e",
+					
+					"devType":"榨汁机",
+					
+					"gmtModified":"2019-11-27T11:18:53.000Z",
+					
+					"typeGroup":"榨汁机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/榨汁机改2.png",
+					
+					"productKey":"3084",
+					
+					"devName":"榨汁机",
+					
+					"gmtCreate":"2019-09-13T10:49:26.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=38d2ca098b3e&skillId=3404&productKey=3084"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca355f6f",
+					
+					"devType":"扫地机器人",
+					
+					"gmtModified":"2019-11-27T11:20:23.000Z",
+					
+					"typeGroup":"扫地机器人",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/roboticvacuum800.png",
+					
+					"productKey":"4057",
+					
+					"devName":"扫地机器人",
+					
+					"gmtCreate":"2019-09-13T10:21:37.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=38d2ca355f6f&skillId=3404&productKey=4057"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca36591b",
+					
+					"devType":"电饭煲",
+					
+					"gmtModified":"2019-11-27T11:19:23.000Z",
+					
+					"typeGroup":"电饭煲",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/cooker_800.png",
+					
+					"productKey":"4091",
+					
+					"devName":"电饭煲",
+					
+					"gmtCreate":"2019-09-12T11:06:50.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/4091/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=38d2ca36591b&productKey=4091"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca25db87",
+					
+					"devType":"破壁机",
+					
+					"gmtModified":"2019-11-27T11:18:53.000Z",
+					
+					"typeGroup":"破壁机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/Breaking_800.png",
+					
+					"productKey":"3612",
+					
+					"devName":"破壁机",
+					
+					"gmtCreate":"2019-09-12T08:17:27.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=38d2ca25db87&skillId=3404&productKey=3612"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca07dd8e",
+					
+					"devType":"加湿器",
+					
+					"gmtModified":"2019-11-27T11:18:53.000Z",
+					
+					"typeGroup":"加湿器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/humidifier800.png",
+					
+					"productKey":"3046",
+					
+					"devName":"加湿器",
+					
+					"gmtCreate":"2019-09-05T13:43:36.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/3046/1.0.1/index.html#/?_ali_share_button_=false&skillId=3404&devId=38d2ca07dd8e&productKey=3046"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"a80171641700009f5c2263a7f8020000",
+					
+					"devType":"智能手环",
+					
+					"gmtModified":"2019-09-05T13:27:33.000Z",
+					
+					"typeGroup":"智能手环",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/smart-band800.png",
+					
+					"productKey":"5988",
+					
+					"devName":"智能手环",
+					
+					"gmtCreate":"2019-09-05T13:26:21.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171641700009f5c2263a7f8020000&skillId=3404&productKey=5988"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"38d2ca0a0428",
+					
+					"devType":"跑步机",
+					
+					"gmtModified":"2019-11-27T11:18:53.000Z",
+					
+					"typeGroup":"跑步机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/treadmill_800.png",
+					
+					"productKey":"3141",
+					
+					"devName":"跑步机",
+					
+					"gmtCreate":"2019-09-05T13:25:31.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=38d2ca0a0428&skillId=3404&productKey=3141"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"109e3a237041",
+					
+					"devType":"净水器",
+					
+					"gmtModified":"2019-11-27T11:18:53.000Z",
+					
+					"typeGroup":"净水器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/waterpurifier800.png",
+					
+					"productKey":"2615",
+					
+					"devName":"净水器",
+					
+					"gmtCreate":"2019-09-05T11:37:27.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=109e3a237041&skillId=3404&productKey=2615"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"Telink-A4:C1:38:E8:9F:E2",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-11-28T08:13:13.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1lwEwgwvD8KJjy0FlXXagBFXa-140-140.jpg",
+					
+					"productKey":"1983",
+					
+					"devName":"灯",
+					
+					"gmtCreate":"2019-09-04T12:59:01.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"二楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"bluetooth",
+						
+						"platform":{
+							
+							"name":"TELINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=Telink-A4:C1:38:E8:9F:E2&skillId=3404&productKey=1983"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"a801713d030000271ee607da78000000",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-11-20T08:09:56.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/light800.png",
+					
+					"productKey":"829",
+					
+					"devName":"电灯",
+					
+					"gmtCreate":"2019-09-04T12:54:30.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"电灯",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a801713d030000271ee607da78000000&skillId=3404&productKey=829"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"f8a763a9e71e",
+					
+					"devType":"电热水壶",
+					
+					"gmtModified":"2019-09-01T12:28:38.000Z",
+					
+					"typeGroup":"电热水壶",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/kettle800.png",
+					
+					"productKey":"2416",
+					
+					"devName":"电热水壶",
+					
+					"gmtCreate":"2019-09-01T12:04:29.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/2416/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=f8a763a9e71e&productKey=2416"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"9pNHKZJUtoGmqoxFO9qy000100",
+					
+					"devType":"蒸脸器",
+					
+					"gmtModified":"2019-09-01T11:48:46.000Z",
+					
+					"typeGroup":"蒸脸器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/facesteam800.png",
+					
+					"productKey":"a17f0R7cQz2",
+					
+					"devName":"蒸脸器",
+					
+					"gmtCreate":"2019-09-01T09:29:29.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=9pNHKZJUtoGmqoxFO9qy000100&skillId=3404&productKey=a17f0R7cQz2"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"1I2ixnTpHlMszIJ5Uoll000100",
+					
+					"devType":"晾衣架",
+					
+					"gmtModified":"2019-09-18T03:49:13.000Z",
+					
+					"typeGroup":"晾衣架",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/hanger_800.png",
+					
+					"productKey":"a1vJ0qhASpz",
+					
+					"devName":"晾衣架",
+					
+					"gmtCreate":"2019-08-30T09:28:46.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=1I2ixnTpHlMszIJ5Uoll000100&skillId=3404&productKey=a1vJ0qhASpz"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"4HkGmiILU5sYajtO3Sme000100",
+					
+					"devType":"豆浆机",
+					
+					"gmtModified":"2019-09-18T03:39:29.000Z",
+					
+					"typeGroup":"豆浆机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/soymilkmaker_800.png",
+					
+					"productKey":"a1mY0XJq4pJ",
+					
+					"devName":"豆浆机",
+					
+					"gmtCreate":"2019-08-30T03:33:36.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=4HkGmiILU5sYajtO3Sme000100&skillId=3404&productKey=a1mY0XJq4pJ"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"3STjCIh9JDlpbw39mrdi000100",
+					
+					"devType":"空气净化器",
+					
+					"gmtModified":"2019-09-18T03:39:29.000Z",
+					
+					"typeGroup":"空气净化器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/airpurifier800.png",
+					
+					"productKey":"a1sHCoyjCBU",
+					
+					"devName":"空气净化器",
+					
+					"gmtCreate":"2019-08-30T03:29:24.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=3STjCIh9JDlpbw39mrdi000100&skillId=3404&productKey=a1sHCoyjCBU"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"3b5fLiClYwp3HVwDY4aY000100",
+					
+					"devType":"冰箱",
+					
+					"gmtModified":"2019-09-18T03:50:26.000Z",
+					
+					"typeGroup":"冰箱",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/fridge800.png",
+					
+					"productKey":"a1JWwt6kO9o",
+					
+					"devName":"冰箱",
+					
+					"gmtCreate":"2019-08-30T03:13:33.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=3b5fLiClYwp3HVwDY4aY000100&skillId=3404&productKey=a1JWwt6kO9o"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"HmxfSVPVw4Fb4uRczNHh000100",
+					
+					"devType":"取暖器",
+					
+					"gmtModified":"2019-09-18T03:50:11.000Z",
+					
+					"typeGroup":"取暖器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/heater800.png",
+					
+					"productKey":"a17vw2aMP6k",
+					
+					"devName":"取暖器",
+					
+					"gmtCreate":"2019-08-29T13:01:14.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=HmxfSVPVw4Fb4uRczNHh000100&skillId=3404&productKey=a17vw2aMP6k"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"a80171691700000fab2263a7f8020000",
+					
+					"devType":"驱蚊器",
+					
+					"gmtModified":"2019-08-30T03:09:21.000Z",
+					
+					"typeGroup":"驱蚊器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/mosquito-dispeller_800.png",
+					
+					"productKey":"5993",
+					
+					"devName":"驱蚊器",
+					
+					"gmtCreate":"2019-08-29T12:53:04.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171691700000fab2263a7f8020000&skillId=3404&productKey=5993"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"7lLisuVGlMHpVRKI3lFj000100",
+					
+					"devType":"灭蚊器",
+					
+					"gmtModified":"2019-09-18T03:39:30.000Z",
+					
+					"typeGroup":"灭蚊器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/mosquitoKiller.png",
+					
+					"productKey":"a1O3t24UF5I",
+					
+					"devName":"灭蚊器",
+					
+					"gmtCreate":"2019-08-29T12:21:30.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=7lLisuVGlMHpVRKI3lFj000100&skillId=3404&productKey=a1O3t24UF5I"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"6eHfFYThgYesuAdIkFpG000100",
+					
+					"devType":"空调",
+					
+					"gmtModified":"2019-09-13T10:37:47.000Z",
+					
+					"typeGroup":"空调",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/aircondition800.png",
+					
+					"productKey":"a1AFGtoQ8iR",
+					
+					"devName":"空调",
+					
+					"gmtCreate":"2019-08-29T10:37:32.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=6eHfFYThgYesuAdIkFpG000100&skillId=3404&productKey=a1AFGtoQ8iR"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"a8017160170000565c2263a7f8020001",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-08-29T09:39:41.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/Fan_Light_800.png",
+					
+					"productKey":"5984",
+					
+					"devName":"灯",
+					
+					"gmtCreate":"2019-08-29T09:39:41.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017160170000565c2263a7f8020001&skillId=3404&productKey=5984"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017160170000565c2263a7f8020002",
+					
+					"devType":"风扇",
+					
+					"gmtModified":"2019-08-29T09:39:41.000Z",
+					
+					"typeGroup":"风扇",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/Fan_Light_800.png",
+					
+					"productKey":"5984",
+					
+					"devName":"风扇",
+					
+					"gmtCreate":"2019-08-29T09:39:41.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017160170000565c2263a7f8020002&skillId=3404&productKey=5984"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017160170000565c2263a7f8020000",
+					
+					"devType":"风扇灯",
+					
+					"gmtModified":"2019-08-29T09:39:41.000Z",
+					
+					"typeGroup":"风扇灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/Fan_Light_800.png",
+					
+					"productKey":"5984",
+					
+					"devName":"风扇灯",
+					
+					"gmtCreate":"2019-08-29T09:39:41.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017160170000565c2263a7f8020000&skillId=3404&productKey=5984"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017142170000d82f2163a7f8020000",
+					
+					"devType":"开关",
+					
+					"gmtModified":"2019-08-29T09:01:49.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/switch_800.png",
+					
+					"productKey":"5954",
+					
+					"devName":"开关",
+					
+					"gmtCreate":"2019-08-29T08:55:49.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/5954/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=a8017142170000d82f2163a7f8020000&productKey=5954&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"AH2KOUicL4ORe2XnYCoz000100",
+					
+					"devType":"冰箱",
+					
+					"gmtModified":"2019-09-18T03:40:21.000Z",
+					
+					"typeGroup":"冰箱",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/fridge800.png",
+					
+					"productKey":"a1HIfkJpqrU",
+					
+					"devName":"冰箱",
+					
+					"gmtCreate":"2019-08-29T03:58:57.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"卧室",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=AH2KOUicL4ORe2XnYCoz000100&skillId=3404&productKey=a1HIfkJpqrU"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"1AURN45ZCDULW4dNLJ1C000100",
+					
+					"devType":"电热毯",
+					
+					"gmtModified":"2019-09-18T03:40:21.000Z",
+					
+					"typeGroup":"电热毯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/blanket_800.png",
+					
+					"productKey":"a1TPGJ4BhZr",
+					
+					"devName":"电热毯",
+					
+					"gmtCreate":"2019-08-29T03:56:50.000Z",
+					
+					"powerstate":0,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"卧室",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=1AURN45ZCDULW4dNLJ1C000100&skillId=3404&productKey=a1TPGJ4BhZr"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"TnlH3jfPLLrFDbuXzQXm000100",
+					
+					"devType":"微波炉",
+					
+					"gmtModified":"2019-09-18T03:40:21.000Z",
+					
+					"typeGroup":"微波炉",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/microwaveoven_800.png",
+					
+					"productKey":"a1T9KeEpu5i",
+					
+					"devName":"微波炉",
+					
+					"gmtCreate":"2019-08-29T03:48:41.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=TnlH3jfPLLrFDbuXzQXm000100&skillId=3404&productKey=a1T9KeEpu5i"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"NbUYBAygNEoljzSEVF2U0010136700",
+					
+					"devType":"空调",
+					
+					"gmtModified":"2019-11-28T03:30:04.000Z",
+					
+					"typeGroup":"空调",
+					
+					"icon":"http://iotx-paas-admin.oss-cn-shanghai.aliyuncs.com/publish/image/1541996974658.jpg",
+					
+					"productKey":"a1TbUuXfPIs",
+					
+					"devName":"格力空调-风赏",
+					
+					"gmtCreate":"2019-08-29T03:37:22.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":515,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"ALINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"格力空调-风赏",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=NbUYBAygNEoljzSEVF2U0010136700&skillId=515&productKey=a1TbUuXfPIs"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"a8017144170000ed2f2163a7f8020002",
+					
+					"devType":"开关",
+					
+					"gmtModified":"2019-08-28T11:17:56.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/DoubleButtonSwitch_800.png",
+					
+					"productKey":"5956",
+					
+					"devName":"开关",
+					
+					"gmtCreate":"2019-08-28T11:17:56.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017144170000ed2f2163a7f8020002&skillId=3404&productKey=5956"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017144170000ed2f2163a7f8020001",
+					
+					"devType":"开关",
+					
+					"gmtModified":"2019-08-28T11:17:56.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/DoubleButtonSwitch_800.png",
+					
+					"productKey":"5956",
+					
+					"devName":"开关",
+					
+					"gmtCreate":"2019-08-28T11:17:56.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017144170000ed2f2163a7f8020001&skillId=3404&productKey=5956"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017144170000ed2f2163a7f8020000",
+					
+					"devType":"双键开关",
+					
+					"gmtModified":"2019-08-28T11:17:56.000Z",
+					
+					"typeGroup":"双键开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/DoubleButtonSwitch_800.png",
+					
+					"productKey":"5956",
+					
+					"devName":"双键开关",
+					
+					"gmtCreate":"2019-08-28T11:17:56.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a8017144170000ed2f2163a7f8020000&skillId=3404&productKey=5956"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"3tEoiEyTP31IArLyxYGY000100",
+					
+					"devType":"窗帘",
+					
+					"gmtModified":"2019-09-18T05:03:14.000Z",
+					
+					"typeGroup":"窗帘",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/curtain800.png",
+					
+					"productKey":"a1MIb6KIn5r",
+					
+					"devName":"窗帘",
+					
+					"gmtCreate":"2019-08-28T11:04:44.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/a1MIb6KIn5r/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=3tEoiEyTP31IArLyxYGY000100&productKey=a1MIb6KIn5r"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"780f7774790b1566893630",
+					
+					"devType":"风扇",
+					
+					"gmtModified":"2019-08-27T08:14:29.000Z",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/FAN.png",
+					
+					"devName":"风扇",
+					
+					"gmtCreate":"2019-08-27T08:13:50.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://709be536bb05e9a429819495fa34a959oauth.ibroadlink.com?deviceId=780f7774790b1566893630&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"780f7774790b1566891307",
+					
+					"devType":"电视",
+					
+					"gmtModified":"2019-08-27T07:36:17.000Z",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/TV.png",
+					
+					"devName":"电视",
+					
+					"gmtCreate":"2019-08-27T07:35:07.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"电视",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://709be536bb05e9a429819495fa34a959oauth.ibroadlink.com?deviceId=780f7774790b1566891307&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"780f7774790b1566891218",
+					
+					"devType":"机顶盒",
+					
+					"gmtModified":"2019-08-27T07:34:33.000Z",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/STB.png",
+					
+					"devName":"机顶盒",
+					
+					"gmtCreate":"2019-08-27T07:33:38.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"机顶盒",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://709be536bb05e9a429819495fa34a959oauth.ibroadlink.com?deviceId=780f7774790b1566891218&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"4njojjO7JOJ6Jgx37CUd000100",
+					
+					"devType":"电压力锅",
+					
+					"gmtModified":"2019-11-28T05:49:10.000Z",
+					
+					"typeGroup":"电压力锅",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/electricpressurecooker_800.png",
+					
+					"productKey":"a19wJvch4N1",
+					
+					"devName":"电压力锅",
+					
+					"gmtCreate":"2019-08-21T09:47:29.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/a19wJvch4N1/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=4njojjO7JOJ6Jgx37CUd000100&productKey=a19wJvch4N1"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"BPNfIfSq7w31JYi0xBFN000100",
+					
+					"devType":"烤箱",
+					
+					"gmtModified":"2019-09-18T03:47:03.000Z",
+					
+					"typeGroup":"烤箱",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/oven800.png",
+					
+					"productKey":"a1E5UU5tnrs",
+					
+					"devName":"烤箱",
+					
+					"gmtCreate":"2019-08-21T09:32:25.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=BPNfIfSq7w31JYi0xBFN000100&skillId=3404&productKey=a1E5UU5tnrs"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"0WIrPklXGy9RqDvOCi7d000100",
+					
+					"devType":"风扇",
+					
+					"gmtModified":"2019-11-28T07:34:37.000Z",
+					
+					"typeGroup":"风扇",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/fan800.png",
+					
+					"productKey":"a12CTZWNV2w",
+					
+					"devName":"风扇",
+					
+					"gmtCreate":"2019-08-21T09:18:07.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/2650/1.0.8/dist/index.html#/?_ali_share_button_=false&skillId=3404&devId=0WIrPklXGy9RqDvOCi7d000100&productKey=a12CTZWNV2w"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"ctYbR98yap6x2OFS80e2000100",
+					
+					"devType":"洗衣机",
+					
+					"gmtModified":"2019-11-28T05:26:47.000Z",
+					
+					"typeGroup":"洗衣机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/washmachine800.png",
+					
+					"productKey":"a19X5mNKscW",
+					
+					"devName":"洗衣机",
+					
+					"gmtCreate":"2019-08-21T07:57:47.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/a19X5mNKscW/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=ctYbR98yap6x2OFS80e2000100&productKey=a19X5mNKscW"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"10nhSv6Fa8z6FhpBeOaW000100",
+					
+					"devType":"暖奶器",
+					
+					"gmtModified":"2019-11-28T05:52:17.000Z",
+					
+					"typeGroup":"暖奶器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/milkregulator800.png",
+					
+					"productKey":"a1wD1YrHVCP",
+					
+					"devName":"暖奶器",
+					
+					"gmtCreate":"2019-08-21T07:47:08.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/a1wD1YrHVCP/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=10nhSv6Fa8z6FhpBeOaW000100&productKey=a1wD1YrHVCP"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"72A3C24E3BF5D0E79A8AE1909F8DF92F",
+					
+					"gmtModified":"2019-08-16T09:41:47.000Z",
+					
+					"icon":"https://gw.alicdn.com/tfs/TB1o1gwV7voK1RjSZFwXXciCFXa-600-600.png",
+					
+					"productKey":145,
+					
+					"devName":"天猫精灵CC",
+					
+					"gmtCreate":"2019-08-16T09:41:47.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1HNzwRpXXXXXiaFXXXXXXXXXX-91-91.png",
+						
+						"type":1
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"其他",
+					
+					"extra":{
+						
+						
+					
+					},
+					
+					"alias":"天猫精灵CC",
+					
+					"action":{
+						
+						"actionType":"URI",
+						
+						"actionData":"assistant://multi_device_manage?uuid=72A3C24E3BF5D0E79A8AE1909F8DF92F"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"6AB1D07E714D62C3BEF8EA696FFE909E",
+					
+					"gmtModified":"2019-08-12T06:58:31.000Z",
+					
+					"statusAction":{
+						
+						"type":"show",
+						
+						"value":{
+							
+							"traceId":"da103c3315634996596908560d08e5",
+							
+							"quantity":60,
+							
+							"status":"charge"
+						
+						},
+						
+						"key":"power"
+					
+					},
+					
+					"icon":"https://ailabs.alibabausercontent.com/images/cd36a187d608a900c08ca7d480361e79/1564967705202.png",
+					
+					"productKey":794,
+					
+					"devName":"天猫精灵BOOM",
+					
+					"gmtCreate":"2019-08-12T06:58:31.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1HNzwRpXXXXXiaFXXXXXXXXXX-91-91.png",
+						
+						"type":1
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"其他",
+					
+					"extra":{
+						
+						"bluetooth":{
+							
+							"macAddress":"",
+							
+							"name":"",
+							
+							"sourceDevice":{
+								
+								"connected":[
+									
+									
+								
+								],
+								
+								"unpair":[
+									
+									
+								
+								],
+								
+								"paired":[
+									
+									
+								
+								]
+							
+							},
+							
+							"pairName":"",
+							
+							"status":"disconnect"
+						
+						}
+					
+					},
+					
+					"alias":"天猫精灵BOOM",
+					
+					"action":{
+						
+						"actionType":"URI",
+						
+						"actionData":"assistant://multi_device_manage?uuid=6AB1D07E714D62C3BEF8EA696FFE909E"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"780f77884f87",
+					
+					"devType":"万能遥控器",
+					
+					"gmtModified":"2019-10-17T03:12:39.000Z",
+					
+					"typeGroup":"万能遥控器",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/RM_mini3.png",
+					
+					"devName":"万能遥控",
+					
+					"gmtCreate":"2019-08-02T07:47:37.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"卧室",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"万能遥控",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://709be536bb05e9a429819495fa34a959oauth.ibroadlink.com?deviceId=780f77884f87&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80171ee00000042796b07da78000000",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-07-30T06:02:38.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/light800.png",
+					
+					"productKey":"238",
+					
+					"devName":"灯",
+					
+					"gmtCreate":"2019-07-30T06:02:08.000Z",
+					
+					"powerstate":0,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171ee00000042796b07da78000000&skillId=3404&productKey=238"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000472a57598b1149c5b53359e8e9cfa3ab",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-06-14T04:18:23.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1TDWZmNnaK1RjSZFtXXbC2VXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"灯",
+					
+					"gmtCreate":"2019-06-14T04:18:23.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"灯",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da78000000472a57598b1149c5b53359e8e9cfa3ab%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000369f87311fe3443987ba944eaf123075",
+					
+					"devType":"电视",
+					
+					"gmtModified":"2019-06-14T04:18:10.000Z",
+					
+					"typeGroup":"电视",
+					
+					"icon":"https://img.alicdn.com/tfs/TB14CiAmFzqK1RjSZFvXXcB7VXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"电视",
+					
+					"gmtCreate":"2019-06-14T04:18:10.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"电视",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da78000000369f87311fe3443987ba944eaf123075%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000bc6413b20f3347f3aa5f2f73f972d239",
+					
+					"devType":"风扇",
+					
+					"gmtModified":"2019-06-14T04:16:27.000Z",
+					
+					"typeGroup":"风扇",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1c_GDmMHqK1RjSZFkXXX.WFXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"风扇",
+					
+					"gmtCreate":"2019-06-14T04:16:27.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"风扇",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da78000000bc6413b20f3347f3aa5f2f73f972d239%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000ab8ff62d31234e6086612618b2e3f9e0",
+					
+					"devType":"空调",
+					
+					"gmtModified":"2019-11-28T09:00:26.000Z",
+					
+					"typeGroup":"空调",
+					
+					"icon":"https://img.alicdn.com/tfs/TB11nyZmNnaK1RjSZFtXXbC2VXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"空调",
+					
+					"gmtCreate":"2019-06-14T04:15:58.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"空调",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da78000000ab8ff62d31234e6086612618b2e3f9e0%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000a674be17062f40c2adc4b44dbb677bf3",
+					
+					"devType":"电视盒子",
+					
+					"gmtModified":"2019-06-14T04:15:46.000Z",
+					
+					"typeGroup":"电视盒子",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1JJWBmFzqK1RjSZFCXXbbxVXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"电视盒子",
+					
+					"gmtCreate":"2019-06-14T04:15:46.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"电视盒子",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da78000000a674be17062f40c2adc4b44dbb677bf3%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000c672169a81dd4849b13ac0f0a573e6a8",
+					
+					"devType":"投影仪",
+					
+					"gmtModified":"2019-06-14T04:15:30.000Z",
+					
+					"typeGroup":"投影仪",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1hyKBmHPpK1RjSZFFXXa5PpXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"投影仪",
+					
+					"gmtCreate":"2019-06-14T04:15:30.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"投影仪",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da78000000c672169a81dd4849b13ac0f0a573e6a8%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da780000005d1e5da27955410b829b2ec059224b46",
+					
+					"devType":"机顶盒",
+					
+					"gmtModified":"2019-06-14T03:41:22.000Z",
+					
+					"typeGroup":"机顶盒",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1dDSBmFzqK1RjSZSgXXcpAVXa-800-800.png",
+					
+					"productKey":"466",
+					
+					"devName":"机顶盒",
+					
+					"gmtCreate":"2019-06-14T03:41:22.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"机顶盒",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&path=infraredDeviceDetail&params=%7B%22deviceId%22%3A%22a80100d2010000b465b907da780000005d1e5da27955410b829b2ec059224b46%22%7D"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80100d2010000b465b907da78000000",
+					
+					"devType":"万能遥控器",
+					
+					"gmtModified":"2019-06-14T03:39:34.000Z",
+					
+					"typeGroup":"万能遥控器",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1THinbwHqK1RjSZFEXXcGMXXa-801-801.png",
+					
+					"productKey":"466",
+					
+					"devName":"万能遥控器",
+					
+					"gmtCreate":"2019-06-14T03:39:27.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80100d2010000b465b907da78000000&devTypeEn=telecontroller&platform=sigmesh"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80171290100001bd06b07da78000000",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-11-20T08:09:55.000Z",
+					
+					"typeGroup":"灯",
+					
+					"\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/light800.png",
+					
+					"productKey":"297",
+					
+					"devName":"灯条",
+					
+					"gmtCreate":"2019-06-14T02:58:06.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"灯条",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171290100001bd06b07da78000000&skillId=3404&productKey=297"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"88060662dc4f22ee5bf6",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-11-28T03:30:03.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://images.tuyacn.com/smart/product_icon/dj.png",
+					
+					"devName":"房灯",
+					
+					"gmtCreate":"2019-06-14T02:47:41.000Z",
+					
+					"powerstate":0,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":873,
+						
+						"platform":{
+							
+							"name":"NONE"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"房灯",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=88060662dc4f22ee5bf6&skillId=873&productKey=null"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a801711a0800001d1c0f3a9e10000000",
+					
+					"devType":"无线按钮",
+					
+					"gmtModified":"2019-05-22T13:19:12.000Z",
+					
+					"typeGroup":"无线按钮",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/button_800.png",
+					
+					"productKey":"2074",
+					
+					"devName":"无线按钮",
+					
+					"gmtCreate":"2019-05-22T13:19:12.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/2074/1.0.29/dist/index.html#/?_ali_share_button_=false&skillId=3404&devId=a801711a0800001d1c0f3a9e10000000&productKey=2074&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80171d001000042e5d707da78000000",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-06-20T09:34:37.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/light800.png",
+					
+					"productKey":"464",
+					
+					"devName":"彩灯",
+					
+					"gmtCreate":"2019-05-22T11:14:37.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"彩灯",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171d001000042e5d707da78000000&skillId=3404&productKey=464"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"780f7774790b",
+					
+					"devType":"万能遥控器",
+					
+					"gmtModified":"2019-11-28T08:13:16.000Z",
+					
+					"typeGroup":"万能遥控器",
+					
+					"icon":"https://ihcv0.ibroadlink.com/ec4appsysinfo/category2/RM_mini3.png",
+					
+					"devName":"万能遥控",
+					
+					"gmtCreate":"2019-05-22T10:23:42.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":513,
+						
+						"platform":{
+							
+							"name":"BROADLINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"万能遥控",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://709be536bb05e9a429819495fa34a959oauth.ibroadlink.com?deviceId=780f7774790b&_ali_share_button_=false"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"04E2B959939054C2F563AE54EE442D03",
+					
+					"devType":"电饭煲",
+					
+					"gmtModified":"2019-11-28T03:30:04.000Z",
+					
+					"typeGroup":"电饭煲",
+					
+					"icon":"https://gtms04.alicdn.com/tps/i4/TB1oDI.KXXXXXbTXVXXXXXXXXXX",
+					
+					"devName":"电饭煲",
+					
+					"gmtCreate":"2019-05-22T02:28:38.000Z",
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":515,
+						
+						"platform":{
+							
+							"name":"ALINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=04E2B959939054C2F563AE54EE442D03&skillId=515&productKey=null"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80171470c000032040acad238010000",
+					
+					"devType":"智能手环",
+					
+					"gmtModified":"2019-10-17T06:24:48.000Z",
+					
+					"typeGroup":"智能手环",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/smart-band800.png",
+					
+					"productKey":"3143",
+					
+					"devName":"智能手环",
+					
+					"gmtCreate":"2019-05-09T12:30:23.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/3143/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=a80171470c000032040acad238010000&productKey=3143&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017165090000e1601c3a9e10020000",
+					
+					"devType":"电视",
+					
+					"gmtModified":"2019-08-22T07:50:23.000Z",
+					
+					"typeGroup":"插座",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/outlet800.png",
+					
+					"productKey":"2405",
+					
+					"devName":"电视",
+					
+					"gmtCreate":"2019-04-10T10:04:56.000Z",
+					
+					"powerstate":0,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"电视",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/2405/1.0.4/index.html#/?_ali_share_button_=false&skillId=3404&devId=a8017165090000e1601c3a9e10020000&productKey=2405&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a8017156090000cbef1c3a9e10020000",
+					
+					"devType":"插座",
+					
+					"gmtModified":"2019-11-28T03:31:32.000Z",
+					
+					"typeGroup":"插座",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/outlet800.png",
+					
+					"productKey":"2390",
+					
+					"devName":"插座",
+					
+					"gmtCreate":"2019-04-10T03:06:37.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"楼上",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/2639/1.0.8/dist/index.html#/?_ali_share_button_=false&skillId=3404&devId=a8017156090000cbef1c3a9e10020000&productKey=2390&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"109e3a237037",
+					
+					"devType":"按摩椅",
+					
+					"gmtModified":"2019-11-27T11:18:53.000Z",
+					
+					"typeGroup":"按摩椅",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/armchair_800.png",
+					
+					"productKey":"2614",
+					
+					"devName":"按摩椅",
+					
+					"gmtCreate":"2019-04-03T14:59:54.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=109e3a237037&skillId=3404&productKey=2614"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"109e3a236e49",
+					
+					"devType":"按摩仪",
+					
+					"gmtModified":"2019-11-26T07:49:52.000Z",
+					
+					"typeGroup":"按摩仪",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/instrument_800.png",
+					
+					"productKey":"2597",
+					
+					"devName":"按摩仪",
+					
+					"gmtCreate":"2019-04-03T11:08:27.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=109e3a236e49&skillId=3404&productKey=2597"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"109e3a236cec",
+					
+					"devType":"空调",
+					
+					"gmtModified":"2019-04-03T08:29:41.000Z",
+					
+					"typeGroup":"空调",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/aircondition800.png",
+					
+					"productKey":"2579",
+					
+					"devName":"空调",
+					
+					"gmtCreate":"2019-04-03T03:07:57.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=109e3a236cec&skillId=3404&productKey=2579"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"109e3a216ecf",
+					
+					"devType":"热水器",
+					
+					"gmtModified":"2019-11-28T08:03:34.000Z",
+					
+					"typeGroup":"热水器",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/waterheater800.png",
+					
+					"productKey":"2512",
+					
+					"devName":"热水器",
+					
+					"gmtCreate":"2019-04-02T02:35:04.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1uGRvVSzqK1RjSZFjXXblCFXa-18-18.png",
+						
+						"desc":"在线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=109e3a216ecf&skillId=3404&productKey=2512"
+					
+					},
+					
+					"onlineState":"online"
+				
+				},
+				
+				{
+					
+					"devId":"109e3a213388",
+					
+					"devType":"抽油烟机",
+					
+					"gmtModified":"2019-11-27T11:18:27.000Z",
+					
+					"typeGroup":"抽油烟机",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/kitchenventilator800.png",
+					
+					"productKey":"2498",
+					
+					"devName":"抽油烟机",
+					
+					"gmtCreate":"2019-04-01T02:53:23.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=109e3a213388&skillId=3404&productKey=2498"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"109e3a1c64dc",
+					
+					"devType":"电热水壶",
+					
+					"gmtModified":"2019-11-27T11:15:23.000Z",
+					
+					"typeGroup":"电热水壶",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/kettle800.png",
+					
+					"productKey":"2416",
+					
+					"devName":"电热水壶",
+					
+					"gmtCreate":"2019-03-30T10:07:26.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"一楼",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"wifi",
+						
+						"platform":{
+							
+							"name":"WIFI"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/controlpanel/pre/pre/2416/1.0.0/index.html#/?_ali_share_button_=false&skillId=3404&devId=109e3a1c64dc&productKey=2416"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"a80151f90200009606e207da78000000",
+					
+					"devType":"无线按钮-开关",
+					
+					"gmtModified":"2019-10-17T03:09:25.000Z",
+					
+					"typeGroup":"无线按钮",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/button_800.png",
+					
+					"productKey":"761",
+					
+					"devName":"无线按钮-开关",
+					
+					"gmtCreate":"2019-03-25T01:4\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00008:53.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/761/0.0.30/button/dist/index.html#/?_ali_share_button_=false&skillId=3404&devId=a80151f90200009606e207da78000000&productKey=761&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a801717d0200007a73c107da78000000",
+					
+					"devType":"秤",
+					
+					"gmtModified":"2019-04-11T08:04:56.000Z",
+					
+					"typeGroup":"秤",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/scale_800.png",
+					
+					"productKey":"637",
+					
+					"devName":"秤",
+					
+					"gmtCreate":"2019-03-12T10:38:59.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a801717d0200007a73c107da78000000&skillId=3404&productKey=637"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80151e9010000a92dc107da78000000",
+					
+					"devType":"开关",
+					
+					"gmtModified":"2019-03-12T09:25:23.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/switch800.png",
+					
+					"productKey":"489",
+					
+					"devName":"开关",
+					
+					"gmtCreate":"2019-03-12T09:25:23.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80151e9010000a92dc107da78000000&skillId=3404&productKey=489"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80151e9010000a92dc107da78000001",
+					
+					"devType":"开关",
+					
+					"gmtModified":"2019-04-13T03:53:32.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/switch800.png",
+					
+					"productKey":"489",
+					
+					"devName":"开关",
+					
+					"gmtCreate":"2019-03-12T09:25:23.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80151e9010000a92dc107da78000001&skillId=3404&productKey=489"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80151e9010000a92dc107da78000002",
+					
+					"devType":"扫地机器人",
+					
+					"gmtModified":"2019-10-28T07:13:49.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/switch800.png",
+					
+					"productKey":"489",
+					
+					"devName":"扫地机器人",
+					
+					"gmtCreate":"2019-03-12T09:25:23.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"客房",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"扫地机器人",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80151e9010000a92dc107da78000002&skillId=3404&productKey=489"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a801715b020000b523c107da78000000",
+					
+					"devType":"插座",
+					
+					"gmtModified":"2019-04-08T03:26:27.000Z",
+					
+					"typeGroup":"插座",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/outlet800.png",
+					
+					"productKey":"603",
+					
+					"devName":"排插单孔单控",
+					
+					"gmtCreate":"2019-03-04T03:32:27.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"排插单孔单控",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a801715b020000b523c107da78000000&skillId=3404&productKey=603"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80151f90200002dd6f307da78000000",
+					
+					"devType":"无线按钮-门铃",
+					
+					"gmtModified":"2019-05-31T04:48:41.000Z",
+					
+					"typeGroup":"无线按钮",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/button_800.png",
+					
+					"productKey":"761",
+					
+					"devName":"无线按钮-门铃",
+					
+					"gmtCreate":"2019-02-28T06:38:00.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://ailabs-iot.aligenie.com/761/0.0.30/button/dist/index.html#/?_ali_share_button_=false&skillId=3404&devId=a80151f90200002dd6f307da78000000&productKey=761&_ali_share_button_=false&genie_app_version=3.20.0.31"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"a80171520200000117c107da78000000",
+					
+					"devType":"灯",
+					
+					"gmtModified":"2019-01-24T06:51:18.000Z",
+					
+					"typeGroup":"灯",
+					
+					"icon":"https://ai-genie-center.oss-cn-hangzhou.aliyuncs.com/app-data/iot-center/灯.jpg",
+					
+					"productKey":"594",
+					
+					"devName":"吸顶灯",
+					
+					"gmtCreate":"2019-01-24T04:37:31.000Z",
+					
+					"powerstate":0,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"客厅",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"吸顶灯",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171520200000117c107da78000000&skillId=3404&productKey=594"
+					
+					}
+				
+				},
+				
+				{
+					
+					"devId":"Telink-30:C0:1B:A6:16:34",
+					
+					"devType":"插座",
+					
+					"gmtModified":"2019-03-08T04:24:34.000Z",
+					
+					"typeGroup":"插座",
+					
+					"icon":"https://gw.alicdn.com/tfs/TB1ZHtcsXGWBuNjy0FbXXb4sXXa-72-72.png",
+					
+					"productKey":"1982",
+					
+					"devName":"插座",
+					
+					"gmtCreate":"2018-12-28T07:11:09.000Z",
+					
+					"powerstate":0,
+					
+					"deviceStatus":{
+						
+						"icon":"https://gw.alicdn.com/tfs/TB1_CquiK3tHKVjSZSgXXX4QFXa-18-18.png",
+						
+						"desc":"离线"
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":true,
+					
+					"zone":"门口",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"networkType":"bluetooth",
+						
+						"platform":{
+							
+							"name":"TELINK"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":false,
+					
+					"alias":"插座",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=Telink-30:C0:1B:A6:16:34&skillId=3404&productKey=1982"
+					
+					},
+					
+					"onlineState":"offline"
+				
+				},
+				
+				{
+					
+					"devId":"a80171ea01000021c5b907da78000001",
+					
+					"devType":"开关",
+					
+					"gmtModified":"2018-10-25T12:02:53.000Z",
+					
+					"typeGroup":"开关",
+					
+					"icon":"https://img.alicdn.com/tfs/TB1WBcogDnI8KJjy0FfXXcdoVXa-800-800.jpg",
+					
+					"productKey":"490",
+					
+					"devName":"开关",
+					
+					"gmtCreate":"2018-10-25T12:02:53.000Z",
+					
+					"powerstate":1,
+					
+					"deviceStatus":{
+						
+						"icon":"",
+						
+						"desc":""
+					
+					},
+					
+					"genieInfo":{
+						
+						"insideIcon":"",
+						
+						"icon":"",
+						
+						"type":0
+					
+					},
+					
+					"isAppControlable":false,
+					
+					"zone":"",
+					
+					"otaFlag":false,
+					
+					"extra":{
+						
+						"skillId":3404,
+						
+						"platform":{
+							
+							"name":"SIGMESH"
+						
+						}
+					
+					},
+					
+					"otaDisplayFlag":true,
+					
+					"alias":"",
+					
+					"action":{
+						
+						"actionType":"H5",
+						
+						"actionData":"https://market.m.taobao.com/app/genie/weex/pages/device-manager?wh_weex=true&devId=a80171ea01000021c5b907da78000001&skillId=3404&productKey=490"
+					
+					}
+				
+				}
+			
+			],
+			
+			"zones":[
+				
+				"全部",
+				
+				"一楼",
+				
+				"门口",
+				
+				"卧室",
+				
+				"主卧",
+				
+				"办公室",
+				
+				"二楼",
+				
+				"客厅",
+				
+				"楼上",
+				
+				"客房",
+				
+				"其他"
+			
+			]
+		
+		},
+		
+		"msgInfo":"调用成功",
+		
+		"msgCode":"SUCCESS",
+		
+		"statusCode":"200"
+	
+	},
+	
+	"v":"1.0",
+	
+	"api":"mtop.alibaba.aicloud.iot.getalldevices"
+
+}

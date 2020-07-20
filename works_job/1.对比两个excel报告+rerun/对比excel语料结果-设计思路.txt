@@ -1,0 +1,40 @@
+需求	两次报告对比费时，需要自动过滤出两次不一致且失败的语料
+	
+	语料=4
+	四项=15 16 17 18							
+	
+	变量
+	文件1	workbook1
+	文件2	workbook2
+	
+1st	对比两个文件的列数，如果不一样，提示文件格式不一致
+2nd	统计行数?	提示两个文件行数不一致，用例数量存在差异
+	表1	sheet1
+	表2	sheet2
+								
+getresult()	失败=四项中任何一项失败，就result=F							
+	文件1的语料	f1_corpus	对应的for遍历值i
+	文件2的语料	f2_corpus	对应的for遍历值j
+comparesult()	文件1	文件2	resulttag	description
+	P	F	0	标记上一次通过，这次失败
+	F	P	1	标记上一次失败
+	P	P	2	过滤
+	F	F	3	标记双错
+语料？	有	无
+	无	有
+	有	有
+	无	无
+
+printnewexcel	打印文件1的第一行
+	打印到新的excel
+
+	打开f1
+	for遍历f1的行
+	取f1语料1，
+		打开第2个文件
+		for遍历
+		if file2_语料x=file1_语料1		对比写在一个函数里：（入参 f1的遍历值 f2的遍历值）
+			getresult()	1.先取得f1和f2的各自的result
+			comparesult()	2.if 3种情况，对应打印出来（这里可以给pass的记个数）
+			if resulttag=0 1 3	先保证功能实现，再抽象到函数里也可以。可以用笔画一下
+				写下语料：

@@ -1,7 +1,7 @@
 import time
 import xlrd,xlwt,os,time
 
-#å­˜æ”¾åŸexcelåˆ°todoã€å­˜å‚¨æ–‡ä»¶è·¯å¾„åã€æ–‡ä»¶ä¸ªæ•°
+#´æ·ÅÔ­excelµ½todo¡¢´æ´¢ÎÄ¼şÂ·¾¶Ãû¡¢ÎÄ¼ş¸öÊı
 excelpath='./todo/'
 for parent, dirnames, filenames in os.walk(excelpath):
     fileslist = []
@@ -9,15 +9,15 @@ for parent, dirnames, filenames in os.walk(excelpath):
         fileslist.append(excelpath + filename)
 print(fileslist)
 localtime = time.asctime( time.localtime(time.time()) )
-print ("å¼€å§‹æ—¶é—´ :", localtime)
+print ("¿ªÊ¼Ê±¼ä :", localtime)
 wenjianshu=0
 wenjiangeshu=len(fileslist)
 
-#æ‰“å¼€è¢«å†™çš„excelï¼Œå»ºç«‹æ–°è¡¨
+#´ò¿ª±»Ğ´µÄexcel£¬½¨Á¢ĞÂ±í
 workbook = xlwt.Workbook(encoding = 'ascii')
 worksheet = workbook.add_sheet('0')
 
-#è¯»ç¬¬ä¸€ä¸ªæ–‡ä»¶ï¼Œåœ¨æ–°æ–‡ä»¶å†™å…¥ç¬¬ä¸€è¡Œçš„å›ºå®šå€¼,å¹¶ä¿å­˜
+#¶ÁµÚÒ»¸öÎÄ¼ş£¬ÔÚĞÂÎÄ¼şĞ´ÈëµÚÒ»ĞĞµÄ¹Ì¶¨Öµ,²¢±£´æ
 test_excel=xlrd.open_workbook(fileslist[0])
 table=test_excel.sheets()[0]
 firstrow =table.row_values(0)
@@ -29,16 +29,16 @@ while j < table.ncols:
     j = j + 1
 workbook.save('newexcel.xls')
 
-#å¤–å±‚å¾ªç¯æ§åˆ¶æ–‡ä»¶ï¼šæ‰“å¼€ç¬¬xä¸ªåŸexcelï¼Œå¹¶è·å–å„è‡ªçš„ç¬¬0å¼ è¡¨æ ¼
+#Íâ²ãÑ­»·¿ØÖÆÎÄ¼ş£º´ò¿ªµÚx¸öÔ­excel£¬²¢»ñÈ¡¸÷×ÔµÄµÚ0ÕÅ±í¸ñ
 allrows = 1
 while wenjianshu < wenjiangeshu:
     test_excel=xlrd.open_workbook(fileslist[wenjianshu])
     table=test_excel.sheets()[0]
-    #ä¸­å±‚å¾ªç¯æ§åˆ¶è¡Œæ•°ï¼š
+    #ÖĞ²ãÑ­»·¿ØÖÆĞĞÊı£º
     hangshu=1
     while hangshu <table.nrows:
         row_hangzhi = table.row_values(hangshu)
-        #å†…å±‚å¾ªç¯æ§åˆ¶åˆ—çš„ä½ç½®å’Œè¯¥åˆ—å¯¹åº”çš„å€¼
+        #ÄÚ²ãÑ­»·¿ØÖÆÁĞµÄÎ»ÖÃºÍ¸ÃÁĞ¶ÔÓ¦µÄÖµ
         lieshu = 0
         while lieshu < table.ncols:
             data = row_hangzhi[lieshu]
@@ -48,10 +48,10 @@ while wenjianshu < wenjiangeshu:
         allrows = allrows + 1
     wenjianshu =wenjianshu+1
 print(allrows)
-print ("ç»“æŸæ—¶é—´ :", localtime)
+print ("½áÊøÊ±¼ä :", localtime)
 workbook.save('newexcel.xls')
 
 '''todo 
-ç¬¬äºŒä¸ªæ–‡ä»¶è¯»å–ï¼Œå†å†™å…¥all.xlsï¼Œæ³¨æ„1ä¸å†™ç¬¬ä¸€è¡Œï¼Œè¿½åŠ å†™å…¥ã€‚
-æ—¶é—´æ ¼å¼çš„å¤„ç†
+µÚ¶ş¸öÎÄ¼ş¶ÁÈ¡£¬ÔÙĞ´Èëall.xls£¬×¢Òâ1²»Ğ´µÚÒ»ĞĞ£¬×·¼ÓĞ´Èë¡£
+Ê±¼ä¸ñÊ½µÄ´¦Àí
 '''
