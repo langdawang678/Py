@@ -30,6 +30,7 @@ for i in list1:
     if '"onlineState":"offline"'in i:
         offlineSum.append(1)
         sum.append(i)
+
 onlinenums = "有onlinestatus的online设备数：" + str(len(onlineSum)) + "\n"
 offlinenums = "有onlinestatus的offline设备数：" + str(len(offlineSum)) + "\n"
 devnums = "devId总数：" + str(len(devSum)) + "\n"

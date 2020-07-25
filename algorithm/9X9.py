@@ -1,6 +1,6 @@
 for i in range(1, 10):
     for j in range(1, i + 1):
-        print('{}*{}={}'.format(j, i, j * i), end='\t')
+        # print('{}*{}={}'.format(j, i, j * i), end='\t')
         print("%d * %d = %d\t " % (i, j, i * j), end="")
     print()
     # 这个print，用于换行，print自带换行效果
