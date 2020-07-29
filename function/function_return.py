@@ -1,6 +1,6 @@
 """
-结论：无return、return 空、return None 的效果相同
-解决：函数中rerun后跟变量或表达式，才能返回值
+    结论：无return、return 空、return None 的效果相同
+    解决：函数中rerun后跟变量或表达式，才能返回值
 """
 def test1(a):
     print("test")
