@@ -1,7 +1,8 @@
-from car import Car
-#打开模块car ， 并导入其中的Car 类。就像它是在这个文件中定义的一样
+from oop.car import Car
 
-my_new_car=Car('audi','a4',2016)
+# 打开模块car ， 并导入其中的Car 类。就像它是在这个文件中定义的一样
+
+my_new_car = Car('audi', 'a4', 2016)
 ''''#要修改属性的值， 最简单的方式是通过实例直接访问它。
 my_new_car.odometer_reading = 23
 '''
