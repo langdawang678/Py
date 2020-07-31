@@ -23,6 +23,7 @@ class Dog:
 
     def roll_over(self):
         print(self.dog_name + " rolled over!")
+        self.sit()  # 类里的方法调用其他方法，要用self去调用（用类名去调用不规范）
     # print(dog_common)  # lovely
 
 # 根据类创建实例my_dog
