@@ -8,8 +8,6 @@
         cls代表类本身
         调用：类. 实例.
 """
-
-
 class Dalao:
     favor = "python"
 
