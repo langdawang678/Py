@@ -1,6 +1,7 @@
 import requests
 """
 get的demo
+# request.get(url, params=None, **kwargs)
 """
 url = "http://www.baidu.com"
 res = requests.get(url)

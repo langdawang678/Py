@@ -1,5 +1,7 @@
 """
 post的demo,入参的在fiddler的校验
+# requests.post(url, data=None, json=None, **kwargs)
+# 也就是可变参数有params，headers，cookies
 """
 
 import requests
