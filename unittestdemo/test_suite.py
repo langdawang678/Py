@@ -30,8 +30,8 @@ if __name__ == '__main__':
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestMathFunc))
     # 注意，用TestLoader的方法是无法对case进行排序的，同时，suite中也可以套suite。
 
-
     with open('UnittestTextReport.txt', 'a') as f:
+        # 用普通文本生成报告 ，另一种是HtmlTestRunner， verbosity为1或者2
         runner = unittest.TextTestRunner(stream=f, verbosity=2)
         runner.run(suite)
         # unittest.TextTestRunner(stream=f, verbosity=2).run(suite)

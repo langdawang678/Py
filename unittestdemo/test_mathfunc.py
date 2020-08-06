@@ -10,18 +10,17 @@ class TestMathFunc(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        print("This setUpClass() method only called once.")
+        print("This setUpClass() 测试类前执行1次.")
 
     @classmethod
     def tearDownClass(cls):
-        print("This tearDownClass() method only called once too.")
+        print("This tearDownClass() 测试类后执行1次.")
 
-    def setUp(self):
-        print("do something before test.Prepare environment.")
+    def setUp(self) -> None:
+        print("每个测试方法前")
 
     def tearDown(self):
-        print("do something after test.Clean up.")
-        '''setUp()�� tearDown()���� TestCase ���ж���ķ���'''
+        print("每个测试方法后")
 
     def test_add(self):
         """Test method add(a, b)"""
