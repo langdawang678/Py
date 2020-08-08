@@ -1,3 +1,5 @@
 
-dict1 = {"a":1,"b":2}
-print(list(dict1))
+
+list1 = ["a","b","c"]
+str1 = "100"
+print(dict(zip(list1,str1)))
