@@ -56,8 +56,9 @@ for row in total_data:
     for cell in row:
         print(cell.value)
 
-# 写入单元格
-sheet.cell(1, 3).value = "新写入"
+# 写入单元格的两种方式
+sheet.cell(1, 3).value = "sheet.cell(1, 3).value"
+sheet.cell(1, 4, "直接加value")
 # 保存或者另存为
 wb.save(r"excel.xlsx")
 # 关闭
