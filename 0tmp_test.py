@@ -1,5 +1,2 @@
-
-
-list1 = ["a","b","c"]
-str1 = "100"
-print(dict(zip(list1,str1)))
+list1= ["tom", "is", "20", "years", "old"]
+print(" ".join(list1))
