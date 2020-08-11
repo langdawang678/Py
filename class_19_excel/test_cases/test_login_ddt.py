@@ -1,6 +1,7 @@
 import unittest
 
 import ddt
+import warnings
 
 from class_19_excel.common.excel_handler import ExcelHandler
 from class_19_excel.common.requests_handler import RequestsHandler
@@ -23,12 +24,14 @@ test_data = [
 @ddt.ddt
 class TestLogin(unittest.TestCase):
     def setUp(self) -> None:
-        pass
+        warnings.simplefilter('ignore', ResourceWarning)
+        # 去掉ResourceWarning: Enable tracemalloc to get the object allocation traceback
 
     def tearDown(self) -> None:
         print("测试用例执行完毕")
 
     @ddt.data(*test_data)
+    # 将 *test_data中的一组数据，赋值到data_info这个参数
     def test_login_success(self, data_info):
         # def visit(self, url, method, params=None, data=None, json=None, **kwargs):
         '''

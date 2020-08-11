@@ -1,7 +1,10 @@
 import unittest
 
+import ddt
+
 from class_19_excel.common.excel_handler import ExcelHandler
 from class_19_excel.common.requests_handler import RequestsHandler
+
 
 test_data = [
     {"url": "http://120.78.128.25:8766/futureloan/member/login",
