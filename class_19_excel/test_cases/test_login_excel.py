@@ -1,7 +1,7 @@
 import unittest
-import warnings
 
 import ddt
+import warnings
 
 from class_19_excel.common.excel_handler import ExcelHandler
 from class_19_excel.common.requests_handler import RequestsHandler
@@ -52,5 +52,5 @@ class TestLogin(unittest.TestCase):
         # self.assertEqual(res, data["expected"])
         self.assertEqual(res["msg"], data_info["expected"])
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
