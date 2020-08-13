@@ -10,12 +10,12 @@ logging日志模块相关类及其常用方法介绍
 
 
 '''
-1.日志收集器logger（日记本）
+1.[getLogger],日志收集器logger（日记本）
 2.日志收集器级别 level
-3.日志处理器handler（不同记号的笔）
+3.[FileHandler],日志处理器handler（不同记号的笔）
 4.日志处理器级别设置
 5.logger.addHandler(handler)
-6.设置日志格式format，日期；重要程度；分类（工作，生活）；内容fmt=logging.Format()
+6.[Formatter],设置日志格式format ，日期；重要程度；分类（工作，生活）；内容fmt=logging.Format()
 7.添加日志处理器,handler.setFormat
 
 '''
@@ -46,8 +46,10 @@ logger.addHandler(handler)
 logger.addHandler(console_handler)
 
 # handler设置格式
-fmt = logging.Formatter('%(asctime)s %(filename)s %(levelname)s %(message)s')
-handler.setFormatter(fmt)   # 此时handler中写入的txt文件有log，控制台有其他级别的log。满足不同的需求
+# fmt = logging.Formatter('%(asctime)s %(filename)s %(levelname)s %(message)s')
+# console_fmt是另一种格式
+file_fmt = logging.Formatter('%(asctime)s--%(filename)s--%(name)s--%(lineno)s--%(levelname)s--%(message)s')
+handler.setFormatter(file_fmt)   # 此时handler中写入的txt文件有log，控制台有其他级别的log。满足不同的需求
 
 logger.debug("debug")
 logger.info("info")
