@@ -3,9 +3,10 @@ import logging
 这说明默认的日志级别设置为WARNING（日志级别等级CRITICAL > ERROR > WARNING > INFO > DEBUG）
 
 '''
-logging.debug("debug不输出")
-logging.info("info不输出")
-logging.warning("warning_msg")
-logging.error("error_msg")
-logging.critical("critical_msg")
+# NOSET 最低级别，等于没写
+logging.debug("这是一个debug信息")
+logging.info("info信息")
+logging.warning("这是一个告警信息")
+logging.error("出错了")
+logging.critical("崩溃了")
 
