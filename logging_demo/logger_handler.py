@@ -1,4 +1,8 @@
+"""
+封装log模块，继承
+小技巧：在定义的模块当中初始化
 
+"""
 import logging
 class LoggerHandler(logging.Logger):
     def __init__(self,
@@ -16,7 +20,7 @@ class LoggerHandler(logging.Logger):
         self.setLevel(level)  # 直接用父类的setLevel方法
 
         if file:
-            handler = logging.FileHandler('file.txt')
+            handler = logging.FileHandler(file)
         else:
             handler = logging.StreamHandler()
         handler.setLevel(level)
@@ -35,10 +39,10 @@ class LoggerHandler(logging.Logger):
 logger = LoggerHandler("python25", file="python25.txt")
 
 
-if __name__ == '__main__':
-    logger = LoggerHandler()
-    # logger = LoggerHandler(file=" r.txt")  # 这里即使输入了file名，还是有指定输出file.txt
-    logger.debug("hello world")  # 能正确显示调用的行号
+# if __name__ == '__main__':
+#     logger = LoggerHandler()
+#     # logger = LoggerHandler(file=" r.txt")  # 这里即使输入了file名，还是有指定输出file.txt
+#     logger.debug("hello world")  # 能正确显示调用的行号
 
 
 
