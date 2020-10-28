@@ -41,3 +41,6 @@ print("打印对象my_dog：", my_dog, "\n")  # 等于__init__()函数中打印�
 # 根据类创建实例your_dog
 your_dog = Dog('大黑', 3)
 print("打印对象your_dog：", your_dog)  # 等于__init__()函数中打印的self
+
+if __name__ == '__main__':
+    Dog('小白', 6).sit()

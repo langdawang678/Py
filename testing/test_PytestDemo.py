@@ -4,14 +4,25 @@
 # @author：langdawang678
 
 import pytest
+
+
+# 1
 def setup_module():
     print("\nsetup_module，只执行一次，当有多个测试类的时候使用")
-
 def teardown_module():
     print("\nteardown_module，只执行一次，当有多个测试类的时候使用")
 
+
+# 被测试方法，
+'''验证：函数级（setup_function/teardown_function）仅对函数用例生效。
+（即不在类中，每个函数执行一次）'''
+def test_function():
+    print("不在类中的测试方法")
+
+
 class TestPytest1(object):
 
+    # 2
     @classmethod
     def setup_class(cls):
         print("\nsetup_class1，只执行一次")
@@ -20,17 +31,32 @@ class TestPytest1(object):
     def teardown_class(cls):
         print("\nteardown_class1，只执行一次")
 
+    # 3
+    def setup(self):
+        print("\nsetup，只执行一次")
+
+    def teardown(self):
+        print("\nteardown，只执行一次")
+
+    # ？
     def setup_method(self):
         print("\nsetup_method1，每个测试方法都执行一次")
-
     def teardown_method(self):
-        print("teardown_method1，每个测试方法都执行一次")
+        print("\nteardown_method1，每个测试方法都执行一次")
 
+    # ？
+    def setup_function(self):
+        print("\nsetup_function,仅对函数用例生效（即不在类中，每个函数执行一次）")
+    def teardown_function(self):
+        print("\nteardown_function,仅对函数用例生效（即不在类中，每个函数执行一次）")
+
+    # 被测试方法
     def test_three(self):
         print("test_three，测试用例")
 
     def test_four(self):
         print("test_four，测试用例")
+
 
 class TestPytest2(object):
 
@@ -53,6 +79,7 @@ class TestPytest2(object):
 
     def test_one(self):
         print("test_one，测试用例")
+
 
 if __name__ == '__main__':
     pytest.main(['-s', 'test_PytestDemo.py'])  # 输出详情，包含打印setup和teardown里的内容
