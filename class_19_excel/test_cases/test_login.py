@@ -13,12 +13,12 @@ test_data = [
      "data": {"mobile_phone": "18111111111", "pwd": "12345678"},
      "expected": "hello world"
      },
-    {"url": "http://120.78.128.25:8766/futureloan/member/login",
-     "method": "post",
-     "headers": {"X-Lemonban-Media-Type": "lemonban.v2"},
-     "data": {"mobile_phone": "1811", "pwd": "123"},
-     "expected": "hello world"
-     }
+    # {"url": "http://120.78.128.25:8766/futureloan/member/login",
+    #  "method": "post",
+    #  "headers": {"X-Lemonban-Media-Type": "lemonban.v2"},
+    #  "data": {"mobile_phone": "1811", "pwd": "123"},
+    #  "expected": "hello world"
+    #  }
 ]
 
 
@@ -44,6 +44,7 @@ class TestLogin(unittest.TestCase):
                                       json=data["data"],
                                       headers=data["headers"])
         print(type(res))  # <class 'dict'>, 因为visit函数中已经 return res.json()
+        print(res)
         '''
         {
         'code': 0, 
