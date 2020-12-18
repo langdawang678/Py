@@ -1,2 +1,0 @@
-在单个测试方法前执行setup_class
-在单个测试类后，执行setup_class

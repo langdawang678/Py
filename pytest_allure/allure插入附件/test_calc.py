@@ -1,9 +1,9 @@
 import allure
 import pytest
 import sys
-sys.path.append("..")  # 加入上一级的目录，否则命令行运行会找不到上级module
+sys.path.append("../..")  # 加入上一级的目录，否则命令行运行会找不到上级module
 
-from pythoncode.calc import Calculator
+from pytest_allure.calc import Calculator
 
 
 class TestCalc:
