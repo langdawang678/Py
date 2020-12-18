@@ -1,8 +1,8 @@
-#!/usr/bin/python3
-# -*- coding: UTF-8 -*-
-# @date: 2020/12/17 3:43 下午
-# @author：langdawang678
-
+"""
+（未找到原因，下面的程序都OK）
+做个demo，演示env为什么会报错
+UnboundLocalError, local variable 'xxxx' referenced before assignment
+"""
 code = 2
 
 
@@ -16,4 +16,4 @@ class UnboundLocalError():
 
 
 if __name__ == '__main__':
-    UnboundLocalError().mockfunc()
+    UnboundLocalError().mockfunc()  # pre
