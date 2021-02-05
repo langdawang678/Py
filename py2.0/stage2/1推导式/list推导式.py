@@ -4,7 +4,7 @@ list_0 = [1, 2, 3, 4]
 """
 列表推导式：
 """
-# Express: 表达式，用于存放新列表中的元素；
+# Express: 表达式，用于存放新列表中的元素，即结果；
 # var：循环的变量
 
 # 案例1，list=[Express for var in range]   指定范围
