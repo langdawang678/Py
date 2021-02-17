@@ -82,7 +82,7 @@ class TestPytest2(object):
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', 'setupteardown.py'])  # 输出详情，包含打印setup和teardown里的内容
+    pytest.main(['-s', 'setup_*And_teardown_*.py'])  # 输出详情，包含打印setup和teardown里的内容
     # pytest.main()  # 不指定文件，当前路径下的test开头的都被执行
-    # pytest.main(['-q', 'setupteardown.py'])  # 简化的，只有点和成功率
-    # pytest.main(['-v', 'setupteardown.py'])  # 显示文件::类::测试方法
+    # pytest.main(['-q', 'setup_*And_teardown_*.py'])  # 简化的，只有点和成功率
+    # pytest.main(['-v', 'setup_*And_teardown_*.py'])  # 显示文件::类::测试方法
