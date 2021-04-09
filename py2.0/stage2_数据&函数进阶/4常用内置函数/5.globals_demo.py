@@ -18,7 +18,7 @@ res = {'__name__': '__main__',
         '__spec__': None, 
         '__annotations__': {}, 
         '__builtins__': < module 'builtins'(built - in) >, 
-        '__file__': '/Users/chenxuanhuai/PycharmProjects/Py/py2.0/stage2/4常用内置函数/5.globals_demo.py', 
+        '__file__': '/Users/chenxuanhuai/PycharmProjects/Py/py2.0/stage2_数据&函数进阶/4常用内置函数/5.globals_demo.py', 
         '__cached__': None, 
         'a': 'runoob'}
 '''
