@@ -11,5 +11,14 @@ a = "banana"
 print(id(a))  # 如，140226160246000
 
 
+L1 = [1,2,3]
+L2 = L1
+print(id(L1))  # 140657265553888
+print(id(L2))  # 140657265553888
+L1[0] = 10
+print(id(L1))  # 140657265553888
+print(id(L2))  # 140657265553888
+print(L1)  # [10, 2, 3]
+print(L2)  # [10, 2, 3],bianl
 # https://www.cnblogs.com/howe670/p/8600851.html
 # https://blog.csdn.net/zhuzuwei/article/details/80532963

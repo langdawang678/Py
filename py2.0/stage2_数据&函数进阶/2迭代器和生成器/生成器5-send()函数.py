@@ -26,7 +26,7 @@ print(g.__next__())
 # a = None
 # bbbbb
 print(g.send("第一次send"))
-# b = 第二次send
+# b = 第一次send
 # cccc
 print(g.__next__())  # 运行结束后，yield返回None
 # c = None

@@ -15,8 +15,7 @@ else:
         b = c
         count = count + 1
         print(a, end=" ")
-
-print()
+# 0 1 1 2 3 5 8 13 21 34
 
 
 # 递归对时间和空间要求高，n越大要求的时间和空间越大，因此效率极低，不建议使用
@@ -31,8 +30,7 @@ def ab(n):
 
 print(ab(10))
 
-
-print("从1开始:  ",end='')
+print("从1开始:  ", end='')
 n = 10
 if n == 1:
     print(1)
@@ -49,6 +47,7 @@ else:
         print(a, end=" ")
 
 print()
+
 
 def ab(n):
     if n == 1:
