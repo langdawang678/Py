@@ -1,6 +1,5 @@
 """
-鸭子类型
-数据类型,多态,
+鸭子类型: [强数据类型,多态,伪多态]
 
 1:
 Python中参数是没有类型限制的,多态在Python的的体现不是很严谨.
@@ -15,9 +14,12 @@ Python解释器不检查发生多态的对象,是否继承了同一个父类,只
 
 
 def start(obj):
+    # python函数中的参数是没有类型限制的
+    # 此处的参数是一个对象. 函数里的对象调用了方法.
     obj.speak()
 
 
+# 伪多态的实现
 class Animal:
     def speak(self):
         print("动物叫,但不知道是哪种动物在叫")
@@ -40,5 +42,17 @@ class Car:
 
 start(Animal())
 start(Dog())
-start(Cat())
+
+cat_obj = Cat()
+print(isinstance(cat_obj, Animal))  # True 子类的对象,也属于父类
+start(cat_obj)
+
 start(Car())
+
+'''
+动物叫,但不知道是哪种动物在叫
+Dog speak
+True
+Cat speak
+Car speak
+'''
