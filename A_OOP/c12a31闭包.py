@@ -51,4 +51,8 @@ print(res.__closure__)
 --> 锁定数据,调高数据的安全性.
 防止外部的变量改变了,导致内部函数的结果变化.
 '''
-print()
+print(func(100,200).__closure__)  # (<cell at 0x7ffa0d78fd10: int object at 0x1058aa780>, <cell at 0x7ffa0d78fd50: int object at 0x1058ab400>)
+print(func.__closure__)  # None
+print(func().__closure__)  # TypeError: func() missing 2 required positional arguments: 'num' and 'num2'
+
+
