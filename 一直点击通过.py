@@ -5,7 +5,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-url = 'https://test-platform.tuya-inc.top:7799/#/task/taskCaseRun?masterId=10406&taskModule=KA&taskId=17692&setId=38488&setName=1.1.5%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B&caseId=339202'
 
 caseNumber = 366
 # url = input("请输入测试用例的执行界面:")
