@@ -14,24 +14,38 @@ with open("c14a11userinfo.txt") as f:
     print(type(info_dict))
 '''token存在用户的cookies中,如果用户的cookies'''
 
-def login(func):
-    print("1//进入login")
 
-    def fun():
-        print("3//进入fun")
-        user_in = input("请输入账号:")
-        pwd_in = input("请输入账号:")
-        if user == user_in and pwd == pwd_in:
-            print("...登录成功...")
-            print("4//执行被装饰的函数func")
-            func()
+def login(func):
+    def fun(*args, **kwargs):
+        if info_dict["token"] == "False":
+            user_in = input("请输入账号:")
+            pwd_in = input("请输入密码:")
+            if info_dict["user"] == user_in and info_dict["pwd"] == pwd_in:
+                info_dict["token"] = "True"
+                with open("c14a11userinfo.txt", "w") as f:
+                    f.write(str(info_dict))
+                print("...登录成功...")
+            else:
+                print("...登录失败...")
         else:
-            print("...登录失败...")
-    print("2//返回fun")
+            print("已经登录了,不需要再登录")
+        func(*args, **kwargs)
+
     return fun
 
 
 @login
 def index():
-    print("5//执行被装饰的函数func指向的index()函数")
     print("...网站首页...")
+
+
+print("------------")
+
+
+@login
+def goods():
+    print("...商品页...")
+
+
+index()
+goods()
