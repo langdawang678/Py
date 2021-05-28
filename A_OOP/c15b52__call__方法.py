@@ -19,7 +19,7 @@ class My(object):
 
 
 print("函数内部实现的方法", dir(fun))  # 实现了'__call__'
-m1 = My("DaBai")
+m1 = My("111")
 print("实例实现的方法", dir(m1))  # 没有实现__call
 m1()  # 被执行会报错
 

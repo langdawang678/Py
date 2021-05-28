@@ -38,7 +38,7 @@ class MyStrRepr(object):
         return "MySrtRepr.object.name-%s" % self.gender
 
 
-s = MyStrRepr("DaBai", "男")
+s = MyStrRepr("111", "男")
 print(s)  # print 触发__str方法
 str(s)  # srt 触发__srt__
 format(s)  # format 触发__srt__

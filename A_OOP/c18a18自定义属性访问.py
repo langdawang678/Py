@@ -54,7 +54,7 @@ class Test:
 
 t = Test()
 # 设置属性的时候 触发__setattr__
-t.name = "DaBai"
+t.name = "111"
 # 先触发查找的方法，找到了不会在去触发__getattr__方法
 print(t.name)
 # 先触发查找方法，找不到才去触发__getattr__方法

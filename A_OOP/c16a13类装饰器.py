@@ -24,5 +24,5 @@ print(fun)  # <__main__.MyCall object at 0x0000022ECE480320> MyCall的实例对�
 fun(1)  # 实例被执行 执行的call方法，call方法里面执行了run()函数
 
 print(My)  # <__main__.MyCall object at 0x0000012B8FDB03C8> MyCall的实例对象
-m = My("DaBai")  # MyCall的实例对象执行call方法 返回 My类的实例对象
+m = My("111")  # MyCall的实例对象执行call方法 返回 My类的实例对象
 print(m)  # <__main__.My object at 0x0000012B8FDB0470> My的实例对象
