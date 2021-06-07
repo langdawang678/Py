@@ -27,5 +27,7 @@ type和object是两个独立的线，type继承自object，object是由type创�
 '''
 type源码：
 # type是在buildings.py中，是个类，和str int 等类似，习惯性的称为函数，本质是个类。
-# 可接受2类参数： 一种返回对象的类型， 一种创建一个新类
+# 有2个功能: 
+        type(object) -> the object's type   # 一种返回对象的类型
+        type(name, bases, dict) -> a new type  #  一种创建一个新类
 '''
