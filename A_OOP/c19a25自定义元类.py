@@ -29,7 +29,7 @@ print(MyMetaClass.__bases__)  # (<class 'type'>,)
 
 
 # 通过自定义元类去创建类
-class MyTest(metaclass=MyMetaClass):
+class MyTest(metaclass=MyMetaClass):  # 指定元类, 不是继承这个MyMetaClass
     name = 'qqq'
 print(type(MyTest))  # <class '__main__.MyMetaClass'>
 
