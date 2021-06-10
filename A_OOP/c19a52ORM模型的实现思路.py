@@ -115,8 +115,9 @@ class FieldMateClass(type):
 # 好处二:每个模型类都能继承这个基类,不用每个模型类都写一个init，或者生成sql的方法
 class BaseModel(metaclass=FieldMateClass):
     def __init__(self, **kwargs):
-        for key, value in kwargs.items():
+        for key, value in kwargs.items():   # 用的时候不用加**,就是个字典
             setattr(self, key, value)  # 设置属性的内置方法,
+            '''setattr指定对象的指定属性的值 setattr(object, attribute, value)'''
 
     # 保存一条数据,生成一条对应的sql语句
     def save_data(self):
@@ -154,6 +155,7 @@ class User(BaseModel):
 
 
 class Oder(BaseModel):
+    """订单模型类"""
     id = IntField()
     money = CharField()
 
@@ -165,7 +167,7 @@ class Oder(BaseModel):
 # 实例的时候一次性传入实例属性
 xiao_ming = User(user_name="小明", pwd="123456", age=17, status=False)
 oder_1 = Oder(id=1, money="1.22")
-
+'''User类实例化时,没有init方法,用的父类BaseModel的init方法'''
 print(xiao_ming.user_name)
 print(oder_1.id)
 
