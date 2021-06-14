@@ -17,7 +17,8 @@ class MyMetaClass(type):
         print("最基础的自定义元类")
 
         # 遍历属性名
-        for k, v in attr_dict.items():
+        # for k, v in attr_dict.items():   # 这个是个生成器对象.  字典不能动态操作. 需要转换为list
+        for k, v in list(attr_dict.items()):
             attr_dict.pop(k)
             attr_dict[k.upper()] = v
 
