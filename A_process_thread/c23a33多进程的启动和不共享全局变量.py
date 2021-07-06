@@ -46,7 +46,7 @@ def work2():
 if __name__ == '__main__':
     '''
     # PYTHON使用多进程MULTIPROCESSING进行做处理的时候报FREEZE_SUPPORT错误的解决方法
-    https://www.freesion.com/article/2458937949/
+    https://www.freesion.com/article/2458937949/  (multiprocessing根据平台不同会执行不同的代码：在类UNIX系统下由于操作系统本身支持fork()语句)
     
     在windows上，子进程会自动import启动它的这个文件，
     而在import的时候是会自动执行这些语句的。
