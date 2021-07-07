@@ -23,8 +23,8 @@ if __name__ == '__main__':
     for i in range(10):
         p.apply_async(work)
 
-    p.close()
-    p.join()
+    p.close()  # 关闭进程池
+    p.join()  # 主进程等待进程池中的所有进程都执行结束后,再往下执行.
 
 '''只有3个进程在工作
 任务执行0 14051
