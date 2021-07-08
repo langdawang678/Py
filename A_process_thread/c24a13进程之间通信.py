@@ -8,6 +8,11 @@ import requests
 # from queue import Queue  # 无法实现进程间的通信,他只能在一个进程中用.
 '''原理c24a26分后开始讲:
 multiprocessing中的Queue,会在不同进程,用同一个参数做关联(给他们共同的一个队列对象q)
+
+进程 multiprocessing.Queue 和线程 queue.Queue的区别
+    方法一摸一样
+    queue.Queue ：是进程内多线程之间非阻塞队列
+    multiprocessing.Queue ：是跨进程通信队列
 '''
 from multiprocessing import Process, Queue
 
