@@ -1,6 +1,6 @@
 """
-gevent切换还是要主动用自己的等待标志才会切换，还不够强大
-gevent有一个补丁可以智能的切换，在IO阻塞的时候自动切换
+gevent切换还是要主动用自己的等待标志(gevent.sleep)才会切换，还不够强大
+gevent有一个补丁可以智能的切换，在IO阻塞的时候(有耗时)自动切换
 导入补丁：from gevent import monkey
 线程中调用：monkey.patch_all()
 此时只要有耗时操作就会自动切换

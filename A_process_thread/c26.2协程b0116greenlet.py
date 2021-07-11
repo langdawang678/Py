@@ -1,4 +1,7 @@
-"""为了更好使用协程来完成多任务，Python中的greenlet模块对其封装，从而使得切换任务变得更加简单"""
+"""为了更好使用协程来完成多任务，
+Python中的greenlet模块对 yeild进行封装，
+从而使得切换任务变得更加简单"""
+
 
 
 '''
@@ -27,4 +30,4 @@ g1 = greenlet.greenlet(work1)
 g2 = greenlet.greenlet(work2)
 
 # 切进任务1，有参数可以传参数 *args, **kwargs
-g1.switch()
+g1.switch()  # 类似于 生成器的next
