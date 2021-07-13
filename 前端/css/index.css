@@ -1,0 +1,20 @@
+.top_menu{
+    height:100px;
+    /*颜色的三种表示方式, rgba的a代表透明度*/
+    /*background: red;*/
+    /*background: rgb(255, 111, 222);*/
+    background: #03c;
+}
+.title{
+    /**/
+    /*background:cyan*/
+    width:350px;
+    color:#fff;
+    font: normal 32px/100px 微软雅黑;
+    text-align:center;
+}
+
+.menu_list li {
+
+}
+
