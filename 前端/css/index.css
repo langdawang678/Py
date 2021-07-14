@@ -12,9 +12,21 @@
     color:#fff;
     font: normal 32px/100px 微软雅黑;
     text-align:center;
+    float: left;
 }
 
-.menu_list li {
-
+.menu_list {
+    float: left;
+    width: 800px;
+    height:100px;
 }
 
+.menu_list li{
+    float: left;
+    width: 100px;
+    height:100px;
+    list-style:none;
+    font: normal 20px/40px 微软雅黑;
+    color:#fff;
+
+}
