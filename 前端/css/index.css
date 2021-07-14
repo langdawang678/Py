@@ -1,3 +1,8 @@
+body{
+    background: #eef2ff;
+}
+
+/*顶部菜单样式*/
 .top_menu{
     height:100px;
     /*颜色的三种表示方式, rgba的a代表透明度*/
@@ -5,6 +10,7 @@
     /*background: rgb(255, 111, 222);*/
     background: #03c;
 }
+
 .title{
     /**/
     /*background:cyan*/
@@ -18,15 +24,47 @@
 .menu_list {
     float: left;
     width: 800px;
-    height:100px;
+    height: 100px;
 }
 
 .menu_list li{
-    float: left;
-    width: 100px;
+    width: 150px;
     height:100px;
+    float: left;
     list-style:none;
-    font: normal 20px/40px 微软雅黑;
+    font: normal 22px/100px 微软雅黑;
     color:#fff;
+    text-align:center;
+}
+
+.menu_list li:hover{
+    background: #6392ed;
+}
+
+.top_user{
+    float: right;
+    font: normal 16px/40px "Microsoft YaHei UI";
+    color: #fff;
+    margin: 45px 40px;
+}
+
+/*侧边菜单样式*/
+.left_menu{
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 300px;
+    height:1000px;
+    background: #fff
+
+}
+/*主题内容部分样式*/
+.content{
+    position: absolute;
+    top: 120px;
+    left: 320;
+    width: 1200px;
+    height:1000px;
+    background: #fff
 
 }
